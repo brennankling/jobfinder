@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T03:58:06+00:00",
+ "generated_at": "2026-10-19T17:34:30+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,7 +12,7 @@
    "fetched": 9,
    "matched": 3,
    "error": null,
-   "seconds": 1.5
+   "seconds": 2.3
   },
   {
    "name": "AMD",
@@ -21,16 +21,16 @@
    "fetched": 122,
    "matched": 22,
    "error": null,
-   "seconds": 2.0
+   "seconds": 3.1
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 609,
+   "fetched": 612,
    "matched": 1,
    "error": null,
-   "seconds": 24.7
+   "seconds": 30.6
   },
   {
    "name": "Astera Labs",
@@ -40,7 +40,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "name": "Ayar Labs",
@@ -49,16 +49,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.6
+   "seconds": 0.9
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 356,
+   "fetched": 358,
    "matched": 0,
    "error": null,
-   "seconds": 8.0
+   "seconds": 9.2
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 460,
    "matched": 4,
    "error": null,
-   "seconds": 19.0
+   "seconds": 22.4
   },
   {
    "name": "Cerebras",
@@ -85,7 +85,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "d-Matrix",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 115,
+   "fetched": 116,
    "matched": 3,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "name": "Groq",
@@ -120,10 +120,10 @@
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 574,
+   "fetched": 571,
    "matched": 2,
    "error": null,
-   "seconds": 36.6
+   "seconds": 41.3
   },
   {
    "name": "Lightmatter",
@@ -139,10 +139,10 @@
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
-   "fetched": 317,
+   "fetched": 316,
    "matched": 19,
    "error": null,
-   "seconds": 18.2
+   "seconds": 27.5
   },
   {
    "name": "MatX",
@@ -152,34 +152,34 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "name": "Micron",
    "platform": "workday",
    "status": "ok",
    "fetched": 400,
-   "matched": 1,
+   "matched": 3,
    "error": null,
-   "seconds": 16.5
+   "seconds": 25.2
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 630,
+   "fetched": 631,
    "matched": 0,
    "error": null,
-   "seconds": 20.1
+   "seconds": 31.0
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 719,
-   "matched": 12,
+   "fetched": 716,
+   "matched": 11,
    "error": null,
-   "seconds": 45.3
+   "seconds": 55.8
   },
   {
    "name": "Positron",
@@ -188,16 +188,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 0.7
+   "seconds": 1.7
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 590,
+   "fetched": 607,
    "matched": 0,
    "error": null,
-   "seconds": 21.6
+   "seconds": 23.3
   },
   {
    "name": "SambaNova",
@@ -213,10 +213,10 @@
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 460,
+   "fetched": 453,
    "matched": 0,
    "error": null,
-   "seconds": 31.6
+   "seconds": 36.7
   },
   {
    "name": "SiFive",
@@ -244,7 +244,7 @@
    "fetched": 12,
    "matched": 4,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 0.6
+   "seconds": 1.0
   }
  ],
  "manual": [
@@ -1097,6 +1097,80 @@
    "closed": null
   },
   {
+   "key": "workday:Micron:JR112552",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - Design Engineer, HBM",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112552",
+   "location": "Richardson, TX",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: functional coverage +1",
+    "desc: Innovus +1",
+    "desc: VCS +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "FPGA",
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Micron:JR112545",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - Design Engineer, HBM",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545",
+   "location": "Richardson, TX",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: functional coverage +1",
+    "desc: Innovus +1",
+    "desc: VCS +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "FPGA",
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
    "key": "workday:Micron:JR112529",
    "source": "Micron",
    "platform": "workday",
@@ -1573,34 +1647,6 @@
    "degree": [
     "PhD",
     "MS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "closed": null
-  },
-  {
-   "key": "workday:NVIDIA:JR2027047",
-   "source": "NVIDIA",
-   "platform": "workday",
-   "title": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
-   "location": "US, CA, Santa Clara",
-   "posted": "2026-10-18",
-   "employment_type": "Full time",
-   "score": 12,
-   "reasons": [
-    "title: Hardware +2",
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: VHDL +3",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Hardware"
-   ],
-   "degree": [
-    "BS"
    ],
    "season": "",
    "first_seen": "2026-10-19",
@@ -2384,6 +2430,34 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-19",
    "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2027047",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-18",
+   "employment_type": "Full time",
+   "score": 12,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": "2026-10-19"
   }
  ]
 }
