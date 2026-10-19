@@ -1,1 +1,2389 @@
-{"generated_at": null, "sources": [], "manual": [], "jobs": []}
+{
+ "generated_at": "2026-10-19T03:58:06+00:00",
+ "settings": {
+  "min_score": 6,
+  "interns_only": true
+ },
+ "sources": [
+  {
+   "name": "Amazon / Annapurna Labs",
+   "platform": "amazon",
+   "status": "ok",
+   "fetched": 9,
+   "matched": 3,
+   "error": null,
+   "seconds": 1.5
+  },
+  {
+   "name": "AMD",
+   "platform": "jibe",
+   "status": "ok",
+   "fetched": 122,
+   "matched": 22,
+   "error": null,
+   "seconds": 2.0
+  },
+  {
+   "name": "Analog Devices",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 609,
+   "matched": 1,
+   "error": null,
+   "seconds": 24.7
+  },
+  {
+   "name": "Astera Labs",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 181,
+   "matched": 0,
+   "error": null,
+   "resolved": "greenhouse/asteralabs",
+   "seconds": 0.3
+  },
+  {
+   "name": "Ayar Labs",
+   "platform": "auto",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
+   "seconds": 0.6
+  },
+  {
+   "name": "Broadcom",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 356,
+   "matched": 0,
+   "error": null,
+   "seconds": 8.0
+  },
+  {
+   "name": "Cadence",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 460,
+   "matched": 4,
+   "error": null,
+   "seconds": 19.0
+  },
+  {
+   "name": "Cerebras",
+   "platform": "greenhouse",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
+   "seconds": 0.2
+  },
+  {
+   "name": "Cerebras (early talent)",
+   "platform": "greenhouse",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
+   "seconds": 0.1
+  },
+  {
+   "name": "d-Matrix",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 43,
+   "matched": 0,
+   "error": null,
+   "resolved": "ashby/d-matrix",
+   "seconds": 0.4
+  },
+  {
+   "name": "Etched",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 115,
+   "matched": 3,
+   "error": null,
+   "resolved": "ashby/etched",
+   "seconds": 0.3
+  },
+  {
+   "name": "Groq",
+   "platform": "auto",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
+   "seconds": 0.9
+  },
+  {
+   "name": "Intel",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 574,
+   "matched": 2,
+   "error": null,
+   "seconds": 36.6
+  },
+  {
+   "name": "Lightmatter",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 65,
+   "matched": 0,
+   "error": null,
+   "resolved": "greenhouse/lightmatter",
+   "seconds": 0.2
+  },
+  {
+   "name": "Marvell",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 317,
+   "matched": 19,
+   "error": null,
+   "seconds": 18.2
+  },
+  {
+   "name": "MatX",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 42,
+   "matched": 0,
+   "error": null,
+   "resolved": "ashby/matx",
+   "seconds": 0.3
+  },
+  {
+   "name": "Micron",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 400,
+   "matched": 1,
+   "error": null,
+   "seconds": 16.5
+  },
+  {
+   "name": "Northrop Grumman",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 630,
+   "matched": 0,
+   "error": null,
+   "seconds": 20.1
+  },
+  {
+   "name": "NVIDIA",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 719,
+   "matched": 12,
+   "error": null,
+   "seconds": 45.3
+  },
+  {
+   "name": "Positron",
+   "platform": "auto",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
+   "seconds": 0.7
+  },
+  {
+   "name": "RTX",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 590,
+   "matched": 0,
+   "error": null,
+   "seconds": 21.6
+  },
+  {
+   "name": "SambaNova",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 60,
+   "matched": 0,
+   "error": null,
+   "resolved": "greenhouse/sambanovasystems",
+   "seconds": 0.2
+  },
+  {
+   "name": "Samsung Semiconductor",
+   "platform": "workday",
+   "status": "ok",
+   "fetched": 460,
+   "matched": 0,
+   "error": null,
+   "seconds": 31.6
+  },
+  {
+   "name": "SiFive",
+   "platform": "auto",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
+   "seconds": 0.5
+  },
+  {
+   "name": "Tenstorrent",
+   "platform": "auto",
+   "status": "ok",
+   "fetched": 127,
+   "matched": 0,
+   "error": null,
+   "resolved": "greenhouse/tenstorrent",
+   "seconds": 0.2
+  },
+  {
+   "name": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "status": "ok",
+   "fetched": 12,
+   "matched": 4,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "name": "Untether AI",
+   "platform": "auto",
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
+   "seconds": 0.6
+  }
+ ],
+ "manual": [
+  {
+   "name": "Apple",
+   "url": "https://jobs.apple.com/en-us/search?search=hardware%20intern&team=internships-STDNT-INTRN"
+  },
+  {
+   "name": "Google",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/?q=hardware%20intern"
+  },
+  {
+   "name": "Meta",
+   "url": "https://www.metacareers.com/jobs?q=ASIC%20intern"
+  },
+  {
+   "name": "Microsoft",
+   "url": "https://jobs.careers.microsoft.com/global/en/search?q=hardware%20intern"
+  },
+  {
+   "name": "Qualcomm",
+   "url": "https://careers.qualcomm.com/careers?query=intern%20hardware"
+  },
+  {
+   "name": "Texas Instruments",
+   "url": "https://careers.ti.com/"
+  },
+  {
+   "name": "Tesla",
+   "url": "https://www.tesla.com/careers/search/?query=hardware%20intern"
+  }
+ ],
+ "jobs": [
+  {
+   "key": "workday:NVIDIA:JR2023486",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 31,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: HDL +2",
+    "desc: Synthesis +1",
+    "desc: Timing Closure +1",
+    "desc: Static Timing +1",
+    "desc: Testbench +1",
+    "desc: Functional Coverage +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Verification",
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023500",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware Verification",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 27,
+   "reasons": [
+    "title: Verification +5",
+    "title: Hardware Verification +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: UVM +3",
+    "desc: Formal Verification +1",
+    "desc: Functional Coverage +1",
+    "desc: Questa +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91361",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/91361",
+   "location": "MARKHAM, Canada",
+   "posted": "2026-09-03",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91362",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/91362",
+   "location": "VANCOUVER, Canada",
+   "posted": "2026-09-01",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90379",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Long Term Hardware Design Verification Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/90379",
+   "location": "MARKHAM, Canada",
+   "posted": "2026-09-01",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90811",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad Hardware Design Verification Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/90811",
+   "location": "San Jose, California; Santa Clara, California",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90813",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters Hardware Design Verification Engineering Intern/Co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/90813",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Fishkill, New York; Fort Collins, Colorado; Longmont, Colorado; Rochester, New York; Secaucus, New Jersey",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90820",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad Hardware Design Verification Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/90820",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Fishkill, New York; Fort Collins, Colorado; Longmont, Colorado; Rochester, New York; Secaucus, New Jersey",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90810",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters Hardware Design Verification Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/90810",
+   "location": "San Jose, California; Santa Clara, California",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "amazon:Amazon / Annapurna Labs:10517535",
+   "source": "Amazon / Annapurna Labs",
+   "platform": "amazon",
+   "title": "ASIC Engineer Intern, Annapurna Labs - 2027 (Annapurna Labs (U.S.) Inc. - D63)",
+   "url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027",
+   "location": "Cupertino, California, USA",
+   "posted": "2026-08-27",
+   "employment_type": "",
+   "score": 25,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: synthesis +1",
+    "desc: timing closure +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Verification",
+    "FPGA",
+    "Physical design"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604506",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification Intern, MS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--MS---Summer-2027_2604506-1",
+   "location": "Santa Clara, CA; Austin, TX; Westborough, MA; Boise, ID; Morrisville, NC",
+   "posted": "2026-09-04",
+   "employment_type": "",
+   "score": 23,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: testbench +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604505",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-Verification-Intern--BS---Summer-2027_2604505-1",
+   "location": "Santa Clara, CA; Austin, TX; Westborough, MA; Boise, ID; Morrisville, NC",
+   "posted": "2026-09-04",
+   "employment_type": "",
+   "score": 23,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: testbench +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2026704",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "PCIe Design Verification Intern - Spring 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCIe-Design-Verification-Intern---Spring-2027_JR2026704",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 22,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "Spring 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2026708",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "PCIe Design Verification Intern - Summer 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/PCIe-Design-Verification-Intern---Summer-2027_JR2026708",
+   "location": "US, TX, Austin",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 22,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604479",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification- Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification--Intern_2604479",
+   "location": "Petah-Tikva",
+   "posted": "2026-10-13",
+   "employment_type": "Full time",
+   "score": 22,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: verilog +3",
+    "desc: system verilog +3",
+    "desc: UVM +3",
+    "desc: functional coverage +1"
+   ],
+   "categories": [
+    "Verification"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604481",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification - Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification---Intern_2604481-1",
+   "location": "Petah-Tikva",
+   "posted": "2026-09-30",
+   "employment_type": "Full time",
+   "score": 22,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: verilog +3",
+    "desc: system verilog +3",
+    "desc: UVM +3",
+    "desc: functional coverage +1"
+   ],
+   "categories": [
+    "Verification"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604466",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/VN---Da-Nang/Design-Verification-Intern_2604466",
+   "location": "VN - Da Nang",
+   "posted": "2026-10-08",
+   "employment_type": "Full time",
+   "score": 21,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: UVM +3"
+   ],
+   "categories": [
+    "Verification"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90367",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/90367",
+   "location": "MARKHAM, Canada",
+   "posted": "2026-09-01",
+   "employment_type": "",
+   "score": 20,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: Synthesis +1",
+    "desc: Timing closure +1",
+    "desc: Static Timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90372",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/90372",
+   "location": "VANCOUVER, Canada",
+   "posted": "2026-09-01",
+   "employment_type": "",
+   "score": 20,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: Synthesis +1",
+    "desc: Timing closure +1",
+    "desc: Static Timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91360",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Short Term 2027 Hardware Design Engineering Intern/Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/91360",
+   "location": "MARKHAM, Canada",
+   "posted": "2026-09-01",
+   "employment_type": "",
+   "score": 20,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: Synthesis +1",
+    "desc: Timing closure +1",
+    "desc: Static Timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Analog Devices:R265298",
+   "source": "Analog Devices",
+   "platform": "workday",
+   "title": "Digital Design Engineer Intern",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298",
+   "location": "US, NC, Durham; US, CA, San Jose, Rio Robles",
+   "posted": "2026-08-24",
+   "employment_type": "",
+   "score": 19,
+   "reasons": [
+    "title: Digital Design +7",
+    "title: Digital +1",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: static timing +1",
+    "desc: FPGA +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91207",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/91207",
+   "location": "OTTAWA, Canada",
+   "posted": "2026-09-02",
+   "employment_type": "",
+   "score": 19,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Verification +5",
+    "desc: SystemVerilog +3",
+    "desc: UVM +3",
+    "desc: testbench +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Verification"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604828",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Digital IC Design Intern, MS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-IC-Design-Intern--MS---Summer-2027_2604828-1",
+   "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Burlington, VT; Boise, ID; Hudson Valley, NY",
+   "posted": "2026-10-08",
+   "employment_type": "",
+   "score": 18,
+   "reasons": [
+    "title: Digital IC Design +7",
+    "title: Digital +1",
+    "desc: Verilog +3",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: static timing +1",
+    "desc: micro-architecture +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604827",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Digital IC Design Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Digital-IC-Design-Intern--BS---Summer-2027_2604827-1",
+   "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Boise, ID; Hudson Valley, NY",
+   "posted": "2026-09-29",
+   "employment_type": "",
+   "score": 18,
+   "reasons": [
+    "title: Digital IC Design +7",
+    "title: Digital +1",
+    "desc: Verilog +3",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: static timing +1",
+    "desc: micro-architecture +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604525",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
+   "location": "Ottawa, Canada; Toronto, Canada",
+   "posted": "2026-09-24",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "title: Hardware +2",
+    "title: Silicon +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: synthesis +1",
+    "desc: formal verification +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Micron:JR112529",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - Memory Design Engineer, HBM",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Memory-Design-Engineer--HBM_JR112529",
+   "location": "Richardson, TX",
+   "posted": "2026-10-16",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: functional coverage +1",
+    "desc: Innovus +1",
+    "desc: VCS +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "FPGA",
+    "Physical design",
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Cadence:R56477",
+   "source": "Cadence",
+   "platform": "workday",
+   "title": "Intern: Software Engineering: Hardware Verification R&D",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Software-Engineering--Hardware-Verification-R-D_R56477",
+   "location": "BELO HORIZONTE",
+   "posted": "2026-09-23",
+   "employment_type": "Part time",
+   "score": 18,
+   "reasons": [
+    "title: Verification +5",
+    "title: Hardware Verification +5",
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Tenstorrent (university):5256706007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Silicon Intern - Physical Design & DFT (USA)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256706007",
+   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
+   "posted": "2026-10-07",
+   "employment_type": "",
+   "score": 18,
+   "reasons": [
+    "title: Physical Design +6",
+    "title: DFT +4",
+    "title: Silicon +2",
+    "desc: RTL +3",
+    "desc: Synthesis +1",
+    "desc: timing closure +1",
+    "desc: RISC-V +1"
+   ],
+   "categories": [
+    "Physical design",
+    "DFT",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023501",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 17,
+   "reasons": [
+    "title: Physical Design +6",
+    "title: VLSI +5",
+    "title: Hardware +2",
+    "desc: Synthesis +1",
+    "desc: Timing Closure +1",
+    "desc: Static Timing +1",
+    "desc: ICC2 +1"
+   ],
+   "categories": [
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "ashby:Etched:dacedaca-c4ca-4964-85a7-8df1738005bb",
+   "source": "Etched",
+   "platform": "ashby",
+   "title": "DV Intern",
+   "url": "https://jobs.ashbyhq.com/etched/dacedaca-c4ca-4964-85a7-8df1738005bb",
+   "location": "San Jose",
+   "posted": "2026-02-07",
+   "employment_type": "Intern",
+   "score": 17,
+   "reasons": [
+    "title: DV +6",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: formal verification +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Fall 2026",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Cadence:R54888",
+   "source": "Cadence",
+   "platform": "workday",
+   "title": "Intern: Application Engineering - Digital Verification & Simulation/VIP",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Application-Engineering---Digital-Verification---Simulation-VIP_R54888",
+   "location": "BELO HORIZONTE",
+   "posted": "2026-07-17",
+   "employment_type": "Part time",
+   "score": 16,
+   "reasons": [
+    "title: Verification +5",
+    "title: Digital +1",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: RTL +3",
+    "desc: Xcelium +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Tenstorrent (university):5256691007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Hardware Intern - Architecture, AI HW & SoC (USA)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256691007",
+   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
+   "posted": "2026-10-07",
+   "employment_type": "",
+   "score": 15,
+   "reasons": [
+    "title: SoC +5",
+    "title: Hardware +2",
+    "title: Architecture +1",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: RISC-V +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604148",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Security Verification/Validation Engineer Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1",
+   "location": "Chandler, AZ",
+   "posted": "2026-09-23",
+   "employment_type": "Full time",
+   "score": 14,
+   "reasons": [
+    "title: Verification +5",
+    "desc: Verilog +3",
+    "desc: System Verilog +3",
+    "desc: RTL +3"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "amazon:Amazon / Annapurna Labs:10576619",
+   "source": "Amazon / Annapurna Labs",
+   "platform": "amazon",
+   "title": "ASIC Engineer Intern, Summer 2027",
+   "url": "https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027",
+   "location": "Sunnyvale, California, USA",
+   "posted": "2026-10-13",
+   "employment_type": "",
+   "score": 14,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: Verilog +3",
+    "desc: system Verilog +3",
+    "desc: micro-architecture +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Tenstorrent (university):5256568007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Hardware Intern - AI HW & SoC (Canada)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256568007",
+   "location": "Ottawa, Ontario, Canada; Toronto, Ontario, Canada",
+   "posted": "2026-10-06",
+   "employment_type": "",
+   "score": 14,
+   "reasons": [
+    "title: SoC +5",
+    "title: Hardware +2",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: RISC-V +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2026584",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 13,
+   "reasons": [
+    "title: VLSI +5",
+    "title: Accelerator +2",
+    "desc: SystemVerilog +3",
+    "desc: Synthesis +1",
+    "desc: micro-architecture +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604462",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Physical Design Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Physical-Design-Intern_2604462",
+   "location": "Petah-Tikva",
+   "posted": "2026-10-04",
+   "employment_type": "Full time",
+   "score": 13,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Physical design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604518",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Physical Design Engineer Intern, MS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--MS---Summer-2027_2604518-1",
+   "location": "Santa Clara, CA; Austin, TX; Morrisville, NC; Rochester, MN; Burlington, VT; Westborough, MA; Boise, ID",
+   "posted": "2026-09-04",
+   "employment_type": "",
+   "score": 13,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: timing closure +1",
+    "desc: static timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604517",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Physical Design Engineer Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Physical-Design-Engineer-Intern--BS---Summer-2027_2604517-1",
+   "location": "Santa Clara, CA; Austin, TX; Morrisville, NC; Rochester, MN; Burlington, VT; Westborough, MA; Boise, ID",
+   "posted": "2026-09-04",
+   "employment_type": "",
+   "score": 13,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: RTL +3",
+    "desc: synthesis +1",
+    "desc: timing closure +1",
+    "desc: static timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "ashby:Etched:5f1f5739-3b58-467c-b351-ff183c94d96d",
+   "source": "Etched",
+   "platform": "ashby",
+   "title": "DFT Intern",
+   "url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d",
+   "location": "San Jose",
+   "posted": "2026-04-13",
+   "employment_type": "Intern",
+   "score": 13,
+   "reasons": [
+    "title: DFT +4",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: synthesis +1",
+    "desc: STA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "DFT"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "Summer 2026",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023487",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 12,
+   "reasons": [
+    "title: Design for Test +4",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Static Timing +1"
+   ],
+   "categories": [
+    "DFT",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2027047",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-18",
+   "employment_type": "Full time",
+   "score": 12,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "amazon:Amazon / Annapurna Labs:10517649",
+   "source": "Amazon / Annapurna Labs",
+   "platform": "amazon",
+   "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027 (Annapurna Labs (U.S.) Inc. - D63)",
+   "url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
+   "location": "Austin, Texas, USA",
+   "posted": "2026-08-27",
+   "employment_type": "",
+   "score": 12,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023508",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware Engineering",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 11,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604490",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Digital IC Design Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Digital-IC-Design-Intern_2604490",
+   "location": "IL - Petah Tikva",
+   "posted": "2026-09-23",
+   "employment_type": "Full time",
+   "score": 11,
+   "reasons": [
+    "title: Digital IC Design +7",
+    "title: Digital +1",
+    "desc: RTL +3"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:92350",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 PhD SerDes Optical Transceivers Silicon Design and Architecture Modeling Engineer Intern/Co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/92350",
+   "location": "San Jose, California; Santa Clara, California",
+   "posted": "2026-09-11",
+   "employment_type": "",
+   "score": 11,
+   "reasons": [
+    "title: Silicon Design +5",
+    "title: Architecture +1",
+    "title: Silicon +2",
+    "desc: RTL +3"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "ashby:Etched:bd8c5768-7efa-4a18-9e56-485ccaf4ec77",
+   "source": "Etched",
+   "platform": "ashby",
+   "title": "PD Intern",
+   "url": "https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77",
+   "location": "San Jose",
+   "posted": "2026-05-19",
+   "employment_type": "Intern",
+   "score": 11,
+   "reasons": [
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: formal verification +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Fall 2026",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023504",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Digital Circuit Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Digital +1",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023489",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Computer Architecture",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Architecture +1",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Intel:JR0287539",
+   "source": "Intel",
+   "platform": "workday",
+   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+   "location": "Canada, Toronto",
+   "posted": "2026-10-16",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "title: Accelerator +2",
+    "desc: FPGA +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Intel:JR0287661",
+   "source": "Intel",
+   "platform": "workday",
+   "title": "AI-Driven Physical Design Engineering (PhD Intern)",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/AI-Driven-Physical-Design-Engineering--PhD-Intern-_JR0287661",
+   "location": "US, California, Santa Clara; US, Colorado, Fort Collins; US, Massachusetts, Beaver Brook; US, Oregon, Hillsboro; US, Texas, Austin",
+   "posted": "2026-10-09",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: RTL +3",
+    "desc: synthesis +1"
+   ],
+   "categories": [
+    "Physical design",
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2603788",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design For Test Intern, MS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Design-For-Test-Intern--MS---Summer-2027_2603788-1",
+   "location": "Santa Clara, CA",
+   "posted": "2026-09-17",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Design For Test +4",
+    "desc: Verilog +3",
+    "desc: System Verilog +3"
+   ],
+   "categories": [
+    "DFT"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2601502",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Physical Design Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Physical-Design-Intern_2601502",
+   "location": "Cordoba, Argentina",
+   "posted": "2026-04-22",
+   "employment_type": "Part time",
+   "score": 10,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: Synthesis +1",
+    "desc: timing closure +1",
+    "desc: Static Timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Physical design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Tenstorrent (university):5256699007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Intern, RISC-V CPU (USA)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256699007",
+   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
+   "posted": "2026-10-07",
+   "employment_type": "",
+   "score": 10,
+   "reasons": [
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: testbenches +1",
+    "desc: Formal Verification +1",
+    "desc: microarchitecture +1",
+    "desc: RISC-V +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604559",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Physical Design Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/VN---Da-Nang/Physical-Design-Intern_2604559",
+   "location": "VN - Da Nang",
+   "posted": "2026-10-08",
+   "employment_type": "Full time",
+   "score": 9,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: Synthesis +1",
+    "desc: timing closure +1",
+    "desc: Static timing +1"
+   ],
+   "categories": [
+    "Physical design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90894",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad Hardware Engineering intern/co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/90894",
+   "location": "Santa Clara, California; San Jose, California",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 9,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91178",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters Hardware Engineering intern/co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/91178",
+   "location": "Santa Clara, California; San Jose, California",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 9,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91173",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad Hardware Engineering intern/co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/91173",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Fort Collins, Colorado; Fishkill, New York; Longmont, Colorado; Rochester, New York",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 9,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91182",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters Hardware Engineering intern/co-op",
+   "url": "https://careers.amd.com/careers-home/jobs/91182",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Rochester, New York; Fishkill, New York; Longmont, Colorado; Fort Collins, Colorado",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 9,
+   "reasons": [
+    "title: Hardware +2",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2602152",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Forward Error Correction Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Forward-Error-Correction-Intern_2602152",
+   "location": "Cordoba, Argentina",
+   "posted": "2026-05-22",
+   "employment_type": "Part time",
+   "score": 8,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: HDL +2"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91239",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Masters Field Applications Engineer Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/91239",
+   "location": "San Jose, California",
+   "posted": "2026-08-20",
+   "employment_type": "",
+   "score": 8,
+   "reasons": [
+    "title: Applications Engineer -2",
+    "desc: Verilog +3",
+    "desc: System Verilog +3",
+    "desc: VHDL +3",
+    "desc: FPGA +1"
+   ],
+   "categories": [
+    "FPGA"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023502",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Mixed Signal Design",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-12",
+   "employment_type": "Full time",
+   "score": 7,
+   "reasons": [
+    "title: Mixed Signal -2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604415",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Ph.D. Intern - Architecture, DSP & Systems Architecture",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Architecture--DSP---Systems-Architecture_2604415",
+   "location": "Santa Clara, CA; Irvine, CA; Austin, TX; Burlington, VT; Westborough, MA; Westlake Village, CA",
+   "posted": "2026-09-10",
+   "employment_type": "Full time",
+   "score": 7,
+   "reasons": [
+    "title: Architecture +1",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604511",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design for Test Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/Design-for-Test-Intern--BS---Summer-2027_2604511",
+   "location": "Morrisville, NC; Westborough, MA; Boise, ID; Santa Clara, CA",
+   "posted": "2026-09-04",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: Design for Test +4",
+    "desc: UVM +3"
+   ],
+   "categories": [
+    "DFT",
+    "Verification"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Cadence:R54158",
+   "source": "Cadence",
+   "platform": "workday",
+   "title": "Product Engineering Internship, Electronics Hardware Design (Fall 2026)",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2",
+   "location": "Burlington, MA",
+   "posted": "2026-08-25",
+   "employment_type": "Full time",
+   "score": 7,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [],
+   "season": "Fall 2026",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:90743",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Fall 2027 Masters Silicon Design Engineering Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/90743",
+   "location": "Austin, Texas",
+   "posted": "2026-09-02",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: Silicon Design +5",
+    "title: Silicon +2"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "Fall 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91471",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters ASIC Package Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/91471",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Fishkill, New York; Fort Collins, Colorado; Longmont, Colorado; Secaucus, New Jersey",
+   "posted": "2026-08-25",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91463",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad ASIC Package Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/91463",
+   "location": "San Jose, California; Santa Clara, California",
+   "posted": "2026-08-25",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91466",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Undergrad ASIC Package Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/91466",
+   "location": "Austin, Texas; Boxborough, Massachusetts; Fishkill, New York; Fort Collins, Colorado; Longmont, Colorado; Secaucus, New Jersey",
+   "posted": "2026-08-25",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "jibe:AMD:91469",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "2027 Masters ASIC Package Engineering Co-op/Intern",
+   "url": "https://careers.amd.com/careers-home/jobs/91469",
+   "location": "Santa Clara, California; San Jose, California",
+   "posted": "2026-08-25",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "MS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  },
+  {
+   "key": "workday:Cadence:R56591",
+   "source": "Cadence",
+   "platform": "workday",
+   "title": "Intern Product Validation Engineering: AI Quality Assurance (QA)",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern-Product-Validation-Engineering--AI-Quality-Assurance--QA-_R56591",
+   "location": "BELO HORIZONTE",
+   "posted": "2026-09-29",
+   "employment_type": "Part time",
+   "score": 6,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: VHDL +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "closed": null
+  }
+ ]
+}
