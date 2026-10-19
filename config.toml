@@ -1,0 +1,208 @@
+# RTL internship hunter — configuration
+#
+# Every source is fetched on each run. A source that fails (wrong slug, moved
+# platform, rate limit) is logged and shown in the dashboard's "Sources" panel;
+# it never breaks the rest of the run.
+#
+# Platforms:
+#   greenhouse  slug  = the name in boards.greenhouse.io/<slug> or job-boards.greenhouse.io/<slug>
+#   lever       slug  = the name in jobs.lever.co/<slug>
+#   ashby       slug  = the name in jobs.ashbyhq.com/<slug>
+#   auto        slugs = guesses; tries Greenhouse, then Ashby, then Lever, uses the first that answers
+#   workday     url   = the careers site URL, e.g. https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+#   jibe        url   = careers site root for Jibe-hosted sites (e.g. careers.amd.com)
+#   amazon      (no extra fields) amazon.jobs search, covers Annapurna Labs and Amazon devices hardware
+#
+# To find a Workday URL: open any job on the company's careers site; if the address
+# contains "myworkdayjobs.com", copy everything up to and including the site name.
+# Run `python -m jobhunt probe <slug>` to test a Greenhouse/Ashby/Lever guess.
+
+[filter]
+# Score needed to show up on the dashboard. See jobhunt/filters.py for weights.
+min_score = 6
+# Only internships/co-ops. Set false to also see new-grad and full-time roles.
+interns_only = true
+# Drop jobs whose location only mentions these places (multi-location jobs that
+# also list a US site are kept).
+exclude_locations = [
+  "India", "Bangalore", "Bengaluru", "Hyderabad", "Pune", "Noida", "Chennai",
+  "Israel", "Haifa", "Yokneam", "Tel Aviv",
+  "Taiwan", "Hsinchu", "Taipei", "China", "Shanghai", "Beijing", "Shenzhen",
+  "Germany", "Munich", "United Kingdom", "UK", "Cambridge, UK", "Ireland", "Cork",
+  "Japan", "Tokyo", "Korea", "Seoul", "Singapore", "Malaysia", "Penang",
+  "Vietnam", "Poland", "Romania", "Serbia", "Mexico", "Costa Rica",
+  "Netherlands", "France", "Sweden", "Finland", "Spain", "Italy", "Belgium",
+]
+# Workday sites are searched with these terms (Workday returns at most 20 per page).
+workday_search_terms = ["intern", "co-op"]
+# amazon.jobs search queries
+amazon_queries = ["hardware engineer intern", "ASIC intern", "design verification intern", "FPGA intern"]
+# amazon.jobs country codes to search (USA, CAN, GBR, ...)
+amazon_countries = ["USA", "CAN"]
+
+# ---------------------------------------------------------------- big semis (Workday)
+[[source]]
+name = "NVIDIA"
+platform = "workday"
+url = "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+
+[[source]]
+name = "Intel"
+platform = "workday"
+url = "https://intel.wd1.myworkdayjobs.com/External"
+
+[[source]]
+name = "Marvell"
+platform = "workday"
+url = "https://marvell.wd1.myworkdayjobs.com/MarvellCareers"
+
+[[source]]
+name = "Broadcom"
+platform = "workday"
+url = "https://broadcom.wd1.myworkdayjobs.com/External_Career"
+
+[[source]]
+name = "Micron"
+platform = "workday"
+url = "https://micron.wd1.myworkdayjobs.com/External"
+
+[[source]]
+name = "Analog Devices"
+platform = "workday"
+url = "https://analogdevices.wd1.myworkdayjobs.com/External"
+
+[[source]]
+name = "Cadence"
+platform = "workday"
+url = "https://cadence.wd1.myworkdayjobs.com/External_Careers"
+
+[[source]]
+name = "Samsung Semiconductor"
+platform = "workday"
+url = "https://sec.wd3.myworkdayjobs.com/Samsung_Careers"
+
+[[source]]
+name = "Northrop Grumman"
+platform = "workday"
+url = "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site"
+
+[[source]]
+name = "RTX"
+platform = "workday"
+url = "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway"
+
+# ---------------------------------------------------------------- other platforms
+[[source]]
+name = "AMD"
+platform = "jibe"
+url = "https://careers.amd.com"
+
+[[source]]
+name = "Amazon / Annapurna Labs"
+platform = "amazon"
+
+# ---------------------------------------------------------------- AI accelerators & startups
+[[source]]
+name = "Cerebras"
+platform = "greenhouse"
+slug = "cerebrassystems"
+
+[[source]]
+name = "Cerebras (early talent)"
+platform = "greenhouse"
+slug = "earlytalentcerebras"
+
+[[source]]
+name = "Tenstorrent (university)"
+platform = "greenhouse"
+slug = "tenstorrentuniversity"
+
+[[source]]
+name = "Tenstorrent"
+platform = "auto"
+slugs = ["tenstorrent"]
+
+[[source]]
+name = "Groq"
+platform = "auto"
+slugs = ["groq", "groqinc"]
+
+[[source]]
+name = "Etched"
+platform = "auto"
+slugs = ["etched", "etchedai"]
+
+[[source]]
+name = "d-Matrix"
+platform = "auto"
+slugs = ["d-matrix", "dmatrix"]
+
+[[source]]
+name = "SambaNova"
+platform = "auto"
+slugs = ["sambanovasystems", "sambanova"]
+
+[[source]]
+name = "SiFive"
+platform = "auto"
+slugs = ["sifive"]
+
+[[source]]
+name = "Lightmatter"
+platform = "auto"
+slugs = ["lightmatter"]
+
+[[source]]
+name = "Ayar Labs"
+platform = "auto"
+slugs = ["ayarlabs", "ayar-labs"]
+
+[[source]]
+name = "Astera Labs"
+platform = "auto"
+slugs = ["asteralabs", "astera-labs"]
+
+[[source]]
+name = "MatX"
+platform = "auto"
+slugs = ["matx", "matx-inc"]
+
+[[source]]
+name = "Untether AI"
+platform = "auto"
+slugs = ["untether", "untetherai"]
+
+[[source]]
+name = "Positron"
+platform = "auto"
+slugs = ["positron", "positronai"]
+
+# ---------------------------------------------------------------- check by hand
+# Sites with no public feed. Shown as quick links on the dashboard.
+[[manual]]
+name = "Apple"
+url = "https://jobs.apple.com/en-us/search?search=hardware%20intern&team=internships-STDNT-INTRN"
+
+[[manual]]
+name = "Google"
+url = "https://www.google.com/about/careers/applications/jobs/results/?q=hardware%20intern"
+
+[[manual]]
+name = "Meta"
+url = "https://www.metacareers.com/jobs?q=ASIC%20intern"
+
+[[manual]]
+name = "Microsoft"
+url = "https://jobs.careers.microsoft.com/global/en/search?q=hardware%20intern"
+
+[[manual]]
+name = "Qualcomm"
+url = "https://careers.qualcomm.com/careers?query=intern%20hardware"
+
+[[manual]]
+name = "Texas Instruments"
+url = "https://careers.ti.com/"
+
+[[manual]]
+name = "Tesla"
+url = "https://www.tesla.com/careers/search/?query=hardware%20intern"

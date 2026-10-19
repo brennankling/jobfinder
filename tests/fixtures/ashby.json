@@ -1,0 +1,28 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "e1",
+   "title": "Silicon Engineering Intern",
+   "department": "Hardware",
+   "employmentType": "Intern",
+   "location": "Cupertino, CA",
+   "secondaryLocations": [],
+   "isRemote": false,
+   "isListed": true,
+   "publishedAt": "2026-10-15T00:00:00.000+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/etched/e1",
+   "descriptionPlain": "Own a block of our transformer ASIC: microarchitecture, RTL in SystemVerilog, and verification with cocotb and Verilator. Undergraduate or Master's students."
+  },
+  {
+   "id": "e2",
+   "title": "Machine Learning Engineer",
+   "employmentType": "FullTime",
+   "location": "Cupertino, CA",
+   "isListed": true,
+   "publishedAt": "2026-10-15T00:00:00.000+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/etched/e2",
+   "descriptionPlain": "Train models."
+  }
+ ]
+}

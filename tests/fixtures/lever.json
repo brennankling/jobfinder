@@ -1,0 +1,33 @@
+[
+ {
+  "id": "aaa-1",
+  "text": "FPGA Engineering Co-op",
+  "hostedUrl": "https://jobs.lever.co/sifive/aaa-1",
+  "categories": {
+   "location": "Austin, TX",
+   "commitment": "Co-op",
+   "team": "Hardware"
+  },
+  "createdAt": 1760000000000,
+  "descriptionPlain": "Join the FPGA prototyping team.",
+  "lists": [
+   {
+    "text": "What you'll do",
+    "content": "<li>Implement FPGA designs in VHDL and Verilog</li><li>Vivado timing closure</li>"
+   }
+  ],
+  "additionalPlain": "Fall 2027"
+ },
+ {
+  "id": "aaa-2",
+  "text": "Analog Design Intern",
+  "hostedUrl": "https://jobs.lever.co/sifive/aaa-2",
+  "categories": {
+   "location": "San Jose, CA",
+   "commitment": "Intern"
+  },
+  "createdAt": 1760000000000,
+  "descriptionPlain": "Design LDOs and bandgaps. Some Verilog-A modeling.",
+  "lists": []
+ }
+]

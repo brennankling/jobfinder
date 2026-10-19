@@ -1,0 +1,27 @@
+{
+ "hits": 2,
+ "jobs": [
+  {
+   "id_icims": "3001",
+   "title": "Hardware Design Engineer Intern - ASIC",
+   "company_name": "Annapurna Labs (U.S.) Inc.",
+   "job_path": "/en/jobs/3001/hardware-design-engineer-intern-asic",
+   "normalized_location": "Austin, Texas, USA",
+   "posted_date": "October 9, 2026",
+   "description": "Design RTL for Trainium.",
+   "basic_qualifications": "<br/>- Experience with Verilog or SystemVerilog<br/>- Pursuing BS/MS in EE/CE",
+   "preferred_qualifications": "- UVM, synthesis"
+  },
+  {
+   "id_icims": "3002",
+   "title": "Software Dev Engineer Intern",
+   "company_name": "Amazon.com Services LLC",
+   "job_path": "/en/jobs/3002/sde-intern",
+   "normalized_location": "Seattle, Washington, USA",
+   "posted_date": "October 9, 2026",
+   "description": "Java.",
+   "basic_qualifications": "",
+   "preferred_qualifications": ""
+  }
+ ]
+}

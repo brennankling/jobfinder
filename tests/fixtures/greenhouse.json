@@ -1,0 +1,65 @@
+{
+ "jobs": [
+  {
+   "id": 101,
+   "title": "Design Verification Intern (Summer 2027)",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/101",
+   "location": {
+    "name": "Sunnyvale, CA"
+   },
+   "first_published": "2026-10-10T12:00:00-04:00",
+   "updated_at": "2026-10-12T10:00:00-04:00",
+   "content": "&lt;p&gt;Develop &lt;b&gt;UVM&lt;/b&gt; testbenches in SystemVerilog for our AI accelerator. Build functional coverage models, write assertions, debug RTL with VCS and Verdi.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pursuing a Bachelor&#x27;s or Master&#x27;s in EE/CE&lt;/li&gt;&lt;li&gt;Summer 2027 internship, 12 weeks&lt;/li&gt;&lt;/ul&gt;"
+  },
+  {
+   "id": 102,
+   "title": "Software Engineering Intern, Compiler",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/102",
+   "location": {
+    "name": "Sunnyvale, CA"
+   },
+   "updated_at": "2026-10-01T10:00:00Z",
+   "content": "&lt;p&gt;Build Python tooling and C++ runtime software for our compiler stack.&lt;/p&gt;"
+  },
+  {
+   "id": 103,
+   "title": "Senior RTL Design Engineer",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/103",
+   "location": {
+    "name": "Toronto, Canada"
+   },
+   "updated_at": "2026-10-01T10:00:00Z",
+   "content": "&lt;p&gt;Write synthesizable RTL in Verilog/SystemVerilog for the NoC and DMA blocks. Run lint, CDC and synthesis, iterate on timing closure with the physical design team. AXI experience is a plus.&lt;/p&gt;&lt;p&gt;Currently pursuing an MS or PhD.&lt;/p&gt;"
+  },
+  {
+   "id": 104,
+   "title": "ASIC Design Intern",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/104",
+   "location": {
+    "name": "Bangalore, India"
+   },
+   "updated_at": "2026-10-01T10:00:00Z",
+   "content": "&lt;p&gt;Write synthesizable RTL in Verilog/SystemVerilog for the NoC and DMA blocks. Run lint, CDC and synthesis, iterate on timing closure with the physical design team. AXI experience is a plus.&lt;/p&gt;&lt;p&gt;Currently pursuing an MS or PhD.&lt;/p&gt;"
+  },
+  {
+   "id": 105,
+   "title": "Hardware Engineering Intern",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/105",
+   "location": {
+    "name": "Sunnyvale, CA; Bangalore, India"
+   },
+   "updated_at": "2026-10-05T10:00:00Z",
+   "content": "&lt;p&gt;Write synthesizable RTL in Verilog/SystemVerilog for the NoC and DMA blocks. Run lint, CDC and synthesis, iterate on timing closure with the physical design team. AXI experience is a plus.&lt;/p&gt;&lt;p&gt;Currently pursuing an MS or PhD.&lt;/p&gt;"
+  },
+  {
+   "id": 106,
+   "title": "Internal Audit Analyst",
+   "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/106",
+   "location": {
+    "name": "Sunnyvale, CA"
+   },
+   "updated_at": "2026-10-05T10:00:00Z",
+   "content": "&lt;p&gt;Build Python tooling and C++ runtime software for our compiler stack.&lt;/p&gt;"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "/job/US-CA-Santa-Clara/Hardware-Verification-Intern_JR2001": {
+  "jobPostingInfo": {
+   "title": "Hardware Verification Intern - Summer 2027",
+   "jobDescription": "<p>Develop <b>UVM</b> testbenches in SystemVerilog for our AI accelerator. Build functional coverage models, write assertions, debug RTL with VCS and Verdi.</p><ul><li>Pursuing a Bachelor's or Master's in EE/CE</li><li>Summer 2027 internship, 12 weeks</li></ul>",
+   "location": "US, CA, Santa Clara",
+   "startDate": "2026-10-15",
+   "jobReqId": "JR2001",
+   "timeType": "Full time",
+   "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Hardware-Verification-Intern_JR2001"
+  }
+ },
+ "/job/US-TX-Austin/PD-Intern_JR2003": {
+  "jobPostingInfo": {
+   "title": "ASIC Physical Design Intern, PhD",
+   "jobDescription": "<p>Floorplan, place and route, timing closure with Innovus and PrimeTime. Tcl scripting. RTL handoff.</p>",
+   "location": "US, TX, Austin",
+   "additionalLocations": [
+    "US, CA, Santa Clara"
+   ],
+   "jobReqId": "JR2003"
+  }
+ }
+}

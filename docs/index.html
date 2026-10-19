@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RTL Internship Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f6f8f7;
+  --sheet: #ffffff;
+  --ink: #1b2430;
+  --muted: #5b6876;
+  --rule: #d6dce2;
+  --link: #2443c4;
+  --trace: #1d7a51;
+  --trace-dim: #b9d6c6;
+  --warn: #a4471c;
+  --applied: #5a46b0;
+  --focus: #2443c4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121820; --sheet: #18202a; --ink: #e2e8ee; --muted: #93a1af; --rule: #2c3743;
+    --link: #8ea6ff; --trace: #4fc98e; --trace-dim: #23463a; --warn: #f0925f; --applied: #b3a4ff; --focus: #8ea6ff;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121820; --sheet: #18202a; --ink: #e2e8ee; --muted: #93a1af; --rule: #2c3743;
+  --link: #8ea6ff; --trace: #4fc98e; --trace-dim: #23463a; --warn: #f0925f; --applied: #b3a4ff; --focus: #8ea6ff;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 400 16px/1.5 "Barlow", system-ui, sans-serif; font-variant-numeric: tabular-nums;
+}
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+header { padding: 32px 0 8px; }
+h1 {
+  font: 700 clamp(28px, 4.6vw, 44px)/1.05 "Barlow Semi Condensed", sans-serif;
+  letter-spacing: -0.01em; margin: 0;
+}
+.stamp { color: var(--muted); margin: 6px 0 0; }
+
+/* The one memorable thing: new matches per day, drawn as a logic-analyzer trace */
+.scope { margin: 22px 0 6px; }
+.scope svg { display: block; width: 100%; height: 76px; overflow: visible; }
+.scope .grid { stroke: var(--rule); stroke-width: 1; }
+.scope .sig { fill: none; stroke: var(--trace); stroke-width: 2; stroke-linejoin: miter; }
+.scope .fill { fill: var(--trace-dim); opacity: .55; }
+.scope .hit { fill: transparent; cursor: default; }
+.scope .hit:hover + .cnt, .scope .cnt.show { opacity: 1; }
+.scope .cnt { font: 600 12px "Barlow Semi Condensed", sans-serif; fill: var(--ink); opacity: 0; transition: opacity .12s; }
+.scope-axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 13px; }
+.scope-caption { color: var(--muted); font-size: 14px; margin: 2px 0 0; }
+
+.controls {
+  position: sticky; top: 0; z-index: 2; background: var(--paper);
+  border-bottom: 1px solid var(--rule); padding: 12px 0; margin-top: 20px;
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center;
+}
+.controls input[type=search], .controls select {
+  font: inherit; color: var(--ink); background: var(--sheet);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 7px 10px; min-height: 38px;
+}
+.controls input[type=search] { flex: 1 1 280px; min-width: 0; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; background: var(--sheet); }
+.seg button {
+  font: 500 15px "Barlow Semi Condensed", sans-serif; color: var(--muted); background: none;
+  border: 0; padding: 7px 12px; min-height: 36px; cursor: pointer;
+}
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { color: var(--sheet); background: var(--ink); }
+.check { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 15px; cursor: pointer; }
+.count { color: var(--muted); font-size: 15px; margin-left: auto; }
+
+.jobs { list-style: none; margin: 0; padding: 0; }
+.job {
+  position: relative; display: grid; grid-template-columns: 9rem 1fr auto; gap: 4px 20px;
+  padding: 14px 0; border-bottom: 1px solid var(--rule); align-items: start;
+}
+.job.is-new::before { content: ""; position: absolute; left: -12px; top: 14px; bottom: 14px; width: 3px; border-radius: 2px; background: var(--trace); }
+.job.is-applied .title a { color: var(--applied); }
+.job.is-closed .title, .job.is-closed .company { text-decoration: line-through; color: var(--muted); }
+.company { font: 600 16px/1.35 "Barlow Semi Condensed", sans-serif; padding-top: 1px; }
+.title { font-weight: 600; font-size: 17px; line-height: 1.35; margin: 0; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--link); text-decoration: underline; }
+.meta { color: var(--muted); font-size: 14.5px; margin-top: 2px; display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tag {
+  font: 500 13px/1 "Barlow Semi Condensed", sans-serif; padding: 4px 7px; border-radius: 4px;
+  border: 1px solid var(--rule); color: var(--ink); background: var(--sheet);
+}
+.tag.new { border-color: var(--trace); color: var(--trace); }
+.tag.phd { border-color: var(--warn); color: var(--warn); }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.score { font: 700 22px/1 "Barlow Semi Condensed", sans-serif; }
+.score small { font: 500 12px "Barlow", sans-serif; color: var(--muted); display: block; text-align: right; }
+.acts { display: flex; gap: 6px; }
+.acts button {
+  font: 500 14px "Barlow Semi Condensed", sans-serif; background: var(--sheet); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 5px; padding: 5px 10px; min-height: 32px; cursor: pointer;
+}
+.acts button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+details.why { grid-column: 2 / 3; font-size: 14px; color: var(--muted); }
+details.why summary { cursor: pointer; width: max-content; }
+details.why p { margin: 4px 0 0; }
+
+.empty { padding: 48px 0; color: var(--muted); max-width: 60ch; }
+.empty strong { color: var(--ink); display: block; font-size: 18px; margin-bottom: 4px; }
+
+footer { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 40px 0 60px; }
+footer h2 { font: 600 20px "Barlow Semi Condensed", sans-serif; margin: 0 0 10px; }
+footer p.note { color: var(--muted); font-size: 14.5px; margin: 0 0 10px; max-width: 52ch; }
+.src { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+.src td { padding: 6px 8px 6px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.src td.n { text-align: right; color: var(--muted); white-space: nowrap; }
+.src .bad { color: var(--warn); }
+.src .err { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.manual { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.manual a {
+  display: inline-block; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 5px;
+  background: var(--sheet); text-decoration: none; color: var(--ink); font-weight: 500;
+}
+.manual a:hover { border-color: var(--link); color: var(--link); }
+.theme { background: none; border: 0; color: var(--muted); font: inherit; text-decoration: underline; cursor: pointer; padding: 0; }
+
+@media (max-width: 720px) {
+  .job { grid-template-columns: 1fr; gap: 2px; }
+  .job.is-new::before { left: -9px; }
+  .side { flex-direction: row; align-items: center; justify-content: space-between; margin-top: 8px; }
+  .score small { display: inline; margin-left: 4px; }
+  details.why { grid-column: 1; }
+  footer { grid-template-columns: 1fr; gap: 28px; }
+  .count { margin-left: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>RTL internship radar</h1>
+    <p class="stamp" id="stamp">Loading listings…</p>
+    <div class="scope" id="scope" hidden>
+      <svg id="trace" viewBox="0 0 600 76" preserveAspectRatio="none" role="img" aria-label="New matches per day, last 30 days"></svg>
+      <div class="scope-axis"><span id="ax0"></span><span>New matches per day</span><span id="ax1">Today</span></div>
+    </div>
+  </header>
+
+  <div class="controls" role="search">
+    <input type="search" id="q" placeholder="Search company, title, location" aria-label="Search listings">
+    <div class="seg" role="group" aria-label="Show">
+      <button data-view="open" aria-pressed="true">Open</button>
+      <button data-view="new" aria-pressed="false">New</button>
+      <button data-view="applied" aria-pressed="false">Applied</button>
+      <button data-view="hidden" aria-pressed="false">Hidden</button>
+      <button data-view="closed" aria-pressed="false">Closed</button>
+    </div>
+    <select id="cat" aria-label="Role type"><option value="">All role types</option></select>
+    <select id="season" aria-label="Season"><option value="">Any season</option></select>
+    <select id="sort" aria-label="Sort">
+      <option value="score">Best match first</option>
+      <option value="new">Newest first</option>
+      <option value="company">Company A–Z</option>
+    </select>
+    <label class="check"><input type="checkbox" id="nophd"> Hide PhD-only</label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <ul class="jobs" id="jobs"></ul>
+
+  <footer>
+    <section>
+      <h2>Check by hand</h2>
+      <p class="note">These companies don't publish a feed the scanner can read.</p>
+      <ul class="manual" id="manual"></ul>
+    </section>
+    <section>
+      <h2>Sources</h2>
+      <p class="note" id="srcnote"></p>
+      <table class="src"><tbody id="sources"></tbody></table>
+      <p class="note" style="margin-top:14px"><button class="theme" id="theme">Switch to dark theme</button></p>
+    </section>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // Per-browser state: applied/hidden marks and the last visit date.
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("rtlradar:" + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("rtlradar:" + k, JSON.stringify(v)); } catch {} },
+  };
+  const marks = store.get("marks", {});        // key -> "applied" | "hidden"
+  const ui = Object.assign({ view: "open", cat: "", season: "", sort: "score", nophd: false }, store.get("ui", {}));
+
+  // Theme toggle
+  const themeBtn = $("theme");
+  const sysDark = matchMedia("(prefers-color-scheme: dark)");
+  const applyTheme = (t) => {
+    if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+    const dark = t ? t === "dark" : sysDark.matches;
+    themeBtn.textContent = dark ? "Switch to light theme" : "Switch to dark theme";
+  };
+  applyTheme(store.get("theme", null));
+  themeBtn.onclick = () => {
+    const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : sysDark.matches;
+    const t = dark ? "light" : "dark"; store.set("theme", t); applyTheme(t);
+  };
+
+  let data = { jobs: [], sources: [], manual: [] };
+  let newSince = null;
+
+  const daysAgo = (iso) => {
+    if (!iso) return null;
+    const d = (Date.now() - new Date(iso + "T12:00:00").getTime()) / 864e5;
+    return Math.max(0, Math.round(d));
+  };
+  const ago = (iso) => {
+    const n = daysAgo(iso);
+    return n === null ? "" : n === 0 ? "today" : n === 1 ? "yesterday" : n + " days ago";
+  };
+  const isNew = (j) => !j.closed && newSince && j.first_seen >= newSince;
+  const phdOnly = (j) => (j.degree || []).length === 1 && j.degree[0] === "PhD";
+
+  function filtered() {
+    const q = $("q").value.trim().toLowerCase();
+    return data.jobs.filter((j) => {
+      const m = marks[j.key];
+      switch (ui.view) {
+        case "open": if (j.closed || m) return false; break;
+        case "new": if (!isNew(j) || m === "hidden") return false; break;
+        case "applied": if (m !== "applied") return false; break;
+        case "hidden": if (m !== "hidden") return false; break;
+        case "closed": if (!j.closed) return false; break;
+      }
+      if (ui.cat && !(j.categories || []).includes(ui.cat)) return false;
+      if (ui.season && j.season !== ui.season) return false;
+      if (ui.nophd && phdOnly(j)) return false;
+      if (q && !(`${j.source} ${j.title} ${j.location}`.toLowerCase().includes(q))) return false;
+      return true;
+    }).sort({
+      score: (a, b) => b.score - a.score || (b.first_seen || "").localeCompare(a.first_seen || ""),
+      new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || b.score - a.score,
+      company: (a, b) => a.source.localeCompare(b.source) || b.score - a.score,
+    }[ui.sort]);
+  }
+
+  function row(j) {
+    const m = marks[j.key];
+    const cls = ["job", isNew(j) && "is-new", m === "applied" && "is-applied", j.closed && "is-closed"].filter(Boolean).join(" ");
+    const tags = [
+      isNew(j) ? `<span class="tag new">New</span>` : "",
+      ...(j.categories || []).map((c) => `<span class="tag">${esc(c)}</span>`),
+      j.season ? `<span class="tag">${esc(j.season)}</span>` : "",
+      ...(j.degree || []).map((d) => `<span class="tag${phdOnly(j) ? " phd" : ""}">${esc(d)}</span>`),
+    ].join("");
+    const meta = [
+      j.location ? `<span>${esc(j.location)}</span>` : "",
+      j.posted ? `<span>Posted ${esc(ago(j.posted))}</span>` : "",
+      `<span>Found ${esc(ago(j.first_seen))}</span>`,
+      j.closed ? `<span>No longer listed since ${esc(j.closed)}</span>` : "",
+    ].join("");
+    return `<li class="${cls}" data-key="${esc(j.key)}">
+      <div class="company">${esc(j.source)}</div>
+      <div class="main">
+        <p class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></p>
+        <div class="meta">${meta}</div>
+        <div class="tags">${tags}</div>
+      </div>
+      <div class="side">
+        <div class="score">${esc(j.score)}<small>match</small></div>
+        <div class="acts">
+          <button data-act="applied" aria-pressed="${m === "applied"}">${m === "applied" ? "Applied" : "Mark applied"}</button>
+          <button data-act="hidden" aria-pressed="${m === "hidden"}">${m === "hidden" ? "Unhide" : "Hide"}</button>
+        </div>
+      </div>
+      <details class="why"><summary>Why it matched</summary><p>${esc((j.reasons || []).join(", "))}</p></details>
+    </li>`;
+  }
+
+  function render() {
+    const list = filtered();
+    const open = data.jobs.filter((j) => !j.closed).length;
+    $("count").textContent = `${list.length} shown of ${open} open`;
+    if (!data.jobs.length) {
+      $("jobs").innerHTML = `<li class="empty"><strong>No listings yet</strong>The first scan fills this page. Run the “Scan job boards” workflow from the repository's Actions tab, or wait for tomorrow's scheduled run.</li>`;
+      return;
+    }
+    $("jobs").innerHTML = list.length ? list.map(row).join("") :
+      `<li class="empty"><strong>Nothing matches these filters</strong>Clear the search or pick a different view above.</li>`;
+  }
+
+  function drawTrace() {
+    const days = 30, counts = new Array(days).fill(0);
+    for (const j of data.jobs) {
+      const n = daysAgo(j.first_seen);
+      if (n !== null && n < days) counts[days - 1 - n]++;
+    }
+    const max = Math.max(1, ...counts), W = 600, H = 76, base = H - 6, top = 10, w = W / days;
+    const y = (c) => c ? base - (base - top) * (0.35 + 0.65 * c / max) : base;
+    let d = `M0 ${base}`, fill = `M0 ${base}`, grid = "", hits = "";
+    counts.forEach((c, i) => {
+      const x0 = i * w + 1.5, x1 = (i + 1) * w - 1.5, yy = y(c);
+      d += ` L${x0} ${base} L${x0} ${yy} L${x1} ${yy} L${x1} ${base}`;
+      if (c) fill += ` M${x0} ${base} L${x0} ${yy} L${x1} ${yy} L${x1} ${base} Z`;
+      grid += `<line class="grid" x1="${i * w}" x2="${i * w}" y1="${top - 4}" y2="${base}" />`;
+      const label = `${c} new ${days - 1 - i === 0 ? "today" : (days - 1 - i) + " days ago"}`;
+      hits += `<rect class="hit" x="${i * w}" y="0" width="${w}" height="${H}"><title>${label}</title></rect>` +
+        `<text class="cnt${i === days - 1 && c ? " show" : ""}" x="${i * w + w / 2}" y="${yy - 4}" text-anchor="middle">${c || ""}</text>`;
+    });
+    d += ` L${W} ${base}`;
+    $("trace").innerHTML = `${grid}<line class="grid" x1="0" x2="${W}" y1="${base}" y2="${base}"/>` +
+      `<path class="fill" d="${fill}"/><path class="sig" d="${d}" vector-effect="non-scaling-stroke"/>${hits}`;
+    const start = new Date(Date.now() - (days - 1) * 864e5);
+    $("ax0").textContent = start.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    $("scope").hidden = false;
+  }
+
+  function fillControls() {
+    const cats = [...new Set(data.jobs.flatMap((j) => j.categories || []))].sort();
+    const seasons = [...new Set(data.jobs.map((j) => j.season).filter(Boolean))].sort();
+    $("cat").insertAdjacentHTML("beforeend", cats.map((c) => `<option>${esc(c)}</option>`).join(""));
+    $("season").insertAdjacentHTML("beforeend", seasons.map((s) => `<option>${esc(s)}</option>`).join(""));
+    $("cat").value = cats.includes(ui.cat) ? ui.cat : ""; ui.cat = $("cat").value;
+    $("season").value = seasons.includes(ui.season) ? ui.season : ""; ui.season = $("season").value;
+    $("sort").value = ui.sort; $("nophd").checked = ui.nophd;
+    document.querySelectorAll(".seg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === ui.view));
+  }
+
+  function footer() {
+    $("manual").innerHTML = (data.manual || []).map((m) =>
+      `<li><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a></li>`).join("");
+    const src = data.sources || [];
+    const bad = src.filter((s) => s.status !== "ok");
+    $("srcnote").textContent = !src.length ? "No scan has run yet." :
+      bad.length ? `${bad.length} of ${src.length} sources failed on the last scan. Fix or remove them in config.toml.`
+                 : `All ${src.length} sources answered on the last scan.`;
+    $("sources").innerHTML = src.sort((a, b) => (a.status === "ok") - (b.status === "ok") || a.name.localeCompare(b.name))
+      .map((s) => `<tr><td>${s.status === "ok" ? esc(s.name) : `<span class="bad">${esc(s.name)}</span><div class="err">${esc(s.error)}</div>`}
+        ${s.resolved ? `<div class="err">Found at ${esc(s.resolved)}</div>` : ""}</td>
+        <td class="n">${s.matched} of ${s.fetched}</td></tr>`).join("");
+  }
+
+  // Events
+  $("q").addEventListener("input", render);
+  document.querySelector(".seg").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    ui.view = b.dataset.view; store.set("ui", ui);
+    document.querySelectorAll(".seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    render();
+  });
+  for (const id of ["cat", "season", "sort"]) $(id).addEventListener("change", (e) => { ui[id] = e.target.value; store.set("ui", ui); render(); });
+  $("nophd").addEventListener("change", (e) => { ui.nophd = e.target.checked; store.set("ui", ui); render(); });
+  $("jobs").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-act]"); if (!b) return;
+    const key = b.closest(".job").dataset.key, act = b.dataset.act;
+    if (marks[key] === act) delete marks[key]; else marks[key] = act;
+    store.set("marks", marks); render();
+  });
+
+  fetch("data/jobs.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then((d) => {
+      data = Object.assign({ jobs: [], sources: [], manual: [] }, d);
+      // "New" = found after the scan you saw on your previous visit. Reloading
+      // the same scan keeps the same baseline, so badges don't vanish on refresh.
+      const latest = data.jobs.reduce((m, j) => (j.first_seen > m ? j.first_seen : m), "");
+      const seen = store.get("seen", { scan: null, baseline: null });
+      if (latest && seen.scan !== latest) { seen.baseline = seen.scan; seen.scan = latest; store.set("seen", seen); }
+      newSince = seen.baseline ? nextDay(seen.baseline) : latest;
+      $("stamp").textContent = data.generated_at
+        ? `Last scan ${new Date(data.generated_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}`
+        : "No scan has run yet.";
+      fillControls(); footer(); if (data.jobs.length) drawTrace(); render();
+    })
+    .catch((err) => {
+      $("stamp").textContent = "";
+      $("jobs").innerHTML = `<li class="empty"><strong>Couldn't load data/jobs.json</strong>${esc(err.message)}. If you opened this file directly from disk, serve the docs folder instead: python -m http.server -d docs</li>`;
+    });
+
+  function nextDay(iso) {
+    const d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + 1); return d.toISOString().slice(0, 10);
+  }
+})();
+</script>
+</body>
+</html>

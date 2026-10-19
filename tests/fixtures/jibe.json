@@ -1,0 +1,26 @@
+{
+ "totalCount": 2,
+ "jobs": [
+  {
+   "data": {
+    "slug": "63823",
+    "req_id": "63823",
+    "title": "Digital Design Engineering Intern/Co-op",
+    "description": "<p>Write synthesizable RTL in Verilog/SystemVerilog for the NoC and DMA blocks. Run lint, CDC and synthesis, iterate on timing closure with the physical design team. AXI experience is a plus.</p><p>Currently pursuing an MS or PhD.</p>",
+    "full_location": "Austin, Texas, United States",
+    "posted_date": "2026-10-08T00:00:00+0000",
+    "employment_type": "Intern"
+   }
+  },
+  {
+   "data": {
+    "slug": "63610",
+    "req_id": "63610",
+    "title": "Product Development Engineer Intern",
+    "description": "<p>Silicon bring-up and test program development in the lab.</p>",
+    "full_location": "Markham, Canada",
+    "posted_date": "2026-10-02T00:00:00+0000"
+   }
+  }
+ ]
+}
