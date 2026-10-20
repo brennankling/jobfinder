@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:34:30+00:00",
+ "generated_at": "2026-10-20T15:41:57+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,31 +12,31 @@
    "fetched": 9,
    "matched": 3,
    "error": null,
-   "seconds": 2.3
+   "seconds": 1.0
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 122,
+   "fetched": 124,
    "matched": 22,
    "error": null,
-   "seconds": 3.1
+   "seconds": 2.6
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 612,
+   "fetched": 613,
    "matched": 1,
    "error": null,
-   "seconds": 30.6
+   "seconds": 34.4
   },
   {
    "name": "Astera Labs",
    "platform": "auto",
    "status": "ok",
-   "fetched": 181,
+   "fetched": 180,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
@@ -49,25 +49,25 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.9
+   "seconds": 3.0
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 358,
+   "fetched": 357,
    "matched": 0,
    "error": null,
-   "seconds": 9.2
+   "seconds": 13.7
   },
   {
    "name": "Cadence",
    "platform": "workday",
    "status": "ok",
-   "fetched": 460,
+   "fetched": 461,
    "matched": 4,
    "error": null,
-   "seconds": 22.4
+   "seconds": 21.2
   },
   {
    "name": "Cerebras",
@@ -85,7 +85,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "d-Matrix",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 116,
+   "fetched": 118,
    "matched": 3,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "name": "Groq",
@@ -114,22 +114,22 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 0.9
+   "seconds": 0.6
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 571,
+   "fetched": 576,
    "matched": 2,
    "error": null,
-   "seconds": 41.3
+   "seconds": 44.6
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 65,
+   "fetched": 63,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
@@ -139,16 +139,16 @@
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
-   "fetched": 316,
+   "fetched": 321,
    "matched": 19,
    "error": null,
-   "seconds": 27.5
+   "seconds": 28.7
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 42,
+   "fetched": 43,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
@@ -159,27 +159,27 @@
    "platform": "workday",
    "status": "ok",
    "fetched": 400,
-   "matched": 3,
+   "matched": 6,
    "error": null,
-   "seconds": 25.2
+   "seconds": 27.2
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 631,
+   "fetched": 624,
    "matched": 0,
    "error": null,
-   "seconds": 31.0
+   "seconds": 24.4
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 716,
-   "matched": 11,
+   "fetched": 718,
+   "matched": 12,
    "error": null,
-   "seconds": 55.8
+   "seconds": 52.2
   },
   {
    "name": "Positron",
@@ -188,22 +188,22 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.7
+   "seconds": 0.7
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 607,
+   "fetched": 627,
    "matched": 0,
    "error": null,
-   "seconds": 23.3
+   "seconds": 20.4
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 60,
+   "fetched": 58,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
@@ -213,10 +213,10 @@
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 453,
+   "fetched": 455,
    "matched": 0,
    "error": null,
-   "seconds": 36.7
+   "seconds": 34.6
   },
   {
    "name": "SiFive",
@@ -225,7 +225,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.5
+   "seconds": 0.7
   },
   {
    "name": "Tenstorrent",
@@ -235,7 +235,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Tenstorrent (university)",
@@ -244,7 +244,7 @@
    "fetched": 12,
    "matched": 4,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 1.0
+   "seconds": 17.9
   }
  ],
  "manual": [
@@ -325,7 +325,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -361,7 +361,42 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2027982",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "ASIC Verification Intern - Summer 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
+   "location": "Canada, Toronto",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 26,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Verification +5",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: Formal verification +1",
+    "desc: FPGA +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Verification",
+    "FPGA"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -394,7 +429,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -427,7 +462,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -460,7 +495,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -492,7 +527,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -524,7 +559,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -556,7 +591,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -588,7 +623,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -625,7 +660,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -656,7 +691,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -687,7 +722,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -718,7 +753,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -749,7 +784,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -779,7 +814,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -809,7 +844,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -838,7 +873,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -872,7 +907,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -906,7 +941,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -940,7 +975,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -969,7 +1004,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -999,7 +1034,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1030,7 +1065,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1061,7 +1096,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1093,7 +1128,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1130,7 +1165,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1167,7 +1202,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1201,7 +1236,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1228,7 +1263,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1262,7 +1297,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1295,7 +1330,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1325,7 +1360,7 @@
    ],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1353,7 +1388,38 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "closed": null
+  },
+  {
+   "key": "workday:Micron:JR112163",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - ASIC Digital Design",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163",
+   "location": "Minneapolis, MN",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 16,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Digital Design +7",
+    "title: Digital +1",
+    "desc: Synthesis +1",
+    "desc: formal verification +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1387,7 +1453,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1415,7 +1481,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1443,7 +1509,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1476,7 +1542,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1505,7 +1571,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1530,7 +1596,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1560,7 +1626,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1590,7 +1656,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1621,7 +1687,7 @@
    ],
    "season": "Summer 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1650,7 +1716,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1679,7 +1745,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1708,7 +1774,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1732,7 +1798,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1759,7 +1825,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1788,7 +1854,7 @@
    ],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1817,7 +1883,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1846,7 +1912,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1874,7 +1940,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1901,7 +1967,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1927,7 +1993,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1953,7 +2019,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -1985,7 +2051,35 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "closed": null
+  },
+  {
+   "key": "workday:Micron:JR111823",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - ASIC Validation",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Minneapolis-MN/Intern---ASIC-Validation_JR111823",
+   "location": "Minneapolis, MN",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: ASIC +6",
+    "desc: SystemVerilog +3",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2012,7 +2106,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2039,7 +2133,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2066,7 +2160,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2093,7 +2187,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2120,7 +2214,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2148,7 +2242,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2176,7 +2270,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2205,7 +2299,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2231,7 +2325,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2257,7 +2351,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2280,7 +2374,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2305,7 +2399,7 @@
    ],
    "season": "Fall 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2330,7 +2424,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2355,7 +2449,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2380,7 +2474,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2405,7 +2499,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
@@ -2428,7 +2522,33 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "closed": null
+  },
+  {
+   "key": "workday:Micron:JR110452",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - Design Engineer, HBM",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR110452",
+   "location": "Richardson, TX",
+   "posted": "2026-10-19",
+   "employment_type": "Full time",
+   "score": 6,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3"
+   ],
+   "categories": [
+    "Hardware"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "closed": null
   },
   {
