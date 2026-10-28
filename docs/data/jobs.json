@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T16:44:27+00:00",
+ "generated_at": "2026-10-28T17:13:11+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,13 +12,13 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.9
+   "seconds": 2.1
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 114,
+   "fetched": 112,
    "matched": 22,
    "error": null,
    "seconds": 2.3
@@ -27,10 +27,10 @@
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 616,
+   "fetched": 617,
    "matched": 2,
    "error": null,
-   "seconds": 30.7
+   "seconds": 33.2
   },
   {
    "name": "Astera Labs",
@@ -49,7 +49,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 1.4
+   "seconds": 1.1
   },
   {
    "name": "Broadcom",
@@ -58,16 +58,16 @@
    "fetched": 372,
    "matched": 0,
    "error": null,
-   "seconds": 8.5
+   "seconds": 10.8
   },
   {
    "name": "Cadence",
    "platform": "workday",
    "status": "ok",
-   "fetched": 465,
+   "fetched": 470,
    "matched": 4,
    "error": null,
-   "seconds": 38.1
+   "seconds": 24.5
   },
   {
    "name": "Cerebras",
@@ -101,11 +101,11 @@
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 116,
+   "fetched": 117,
    "matched": 3,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.4
+   "seconds": 0.8
   },
   {
    "name": "Groq",
@@ -114,45 +114,45 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 1.8
+   "seconds": 0.7
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 598,
-   "matched": 3,
+   "fetched": 602,
+   "matched": 4,
    "error": null,
-   "seconds": 50.0
+   "seconds": 47.6
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 61,
+   "fetched": 59,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
-   "fetched": 335,
+   "fetched": 331,
    "matched": 17,
    "error": null,
-   "seconds": 28.3
+   "seconds": 24.5
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 42,
+   "fetched": 41,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Micron",
@@ -161,25 +161,25 @@
    "fetched": 400,
    "matched": 0,
    "error": null,
-   "seconds": 18.3
+   "seconds": 22.1
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 609,
+   "fetched": 603,
    "matched": 0,
    "error": null,
-   "seconds": 25.0
+   "seconds": 22.9
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 716,
+   "fetched": 721,
    "matched": 13,
    "error": null,
-   "seconds": 56.8
+   "seconds": 70.6
   },
   {
    "name": "Positron",
@@ -188,22 +188,22 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.4
+   "seconds": 1.2
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 600,
+   "fetched": 604,
    "matched": 0,
    "error": null,
-   "seconds": 23.9
+   "seconds": 29.2
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 63,
+   "fetched": 69,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
@@ -216,7 +216,7 @@
    "fetched": 455,
    "matched": 0,
    "error": null,
-   "seconds": 30.6
+   "seconds": 31.3
   },
   {
    "name": "SiFive",
@@ -225,26 +225,26 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 1.1
+   "seconds": 0.5
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 119,
+   "fetched": 123,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Tenstorrent (university)",
    "platform": "greenhouse",
    "status": "ok",
-   "fetched": 14,
+   "fetched": 15,
    "matched": 4,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 1.1
+   "seconds": 3.0
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -465,7 +465,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -498,7 +498,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -531,7 +531,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -595,7 +595,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -627,7 +627,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -659,7 +659,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -696,7 +696,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -727,7 +727,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -758,7 +758,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -789,7 +789,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -820,7 +820,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -850,7 +850,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -880,7 +880,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -909,7 +909,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -943,7 +943,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -977,7 +977,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1011,7 +1011,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1040,7 +1040,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1070,7 +1070,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1101,7 +1101,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1132,7 +1132,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1164,7 +1164,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1191,7 +1191,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1225,7 +1225,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1252,7 +1252,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1285,7 +1285,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1315,7 +1315,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1343,7 +1343,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1377,7 +1377,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1405,7 +1405,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1433,7 +1433,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1466,7 +1466,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1476,7 +1476,7 @@
    "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-12",
+   "posted": "2026-10-27",
    "employment_type": "Full time",
    "score": 13,
    "reasons": [
@@ -1495,7 +1495,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1525,7 +1525,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1555,7 +1555,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1586,7 +1586,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1615,7 +1615,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1644,7 +1644,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1673,7 +1673,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1700,7 +1700,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1729,7 +1729,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1758,7 +1758,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1787,7 +1787,35 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
+   "closed": null
+  },
+  {
+   "key": "workday:Intel:JR0287539",
+   "source": "Intel",
+   "platform": "workday",
+   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+   "location": "Canada, Toronto",
+   "posted": "2026-10-27",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "title: Accelerator +2",
+    "desc: FPGA +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1814,7 +1842,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1840,7 +1868,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1866,7 +1894,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1898,7 +1926,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1925,7 +1953,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1952,7 +1980,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -1979,7 +2007,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2006,7 +2034,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2033,7 +2061,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2061,7 +2089,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2089,7 +2117,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2118,7 +2146,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2144,7 +2172,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2170,7 +2198,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2193,7 +2221,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2218,7 +2246,7 @@
    ],
    "season": "Fall 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2243,7 +2271,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2268,7 +2296,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2293,7 +2321,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2318,7 +2346,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2344,7 +2372,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2367,7 +2395,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2392,7 +2420,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "closed": null
   },
   {
@@ -2640,34 +2668,6 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-25",
    "closed": "2026-10-26"
-  },
-  {
-   "key": "workday:Intel:JR0287539",
-   "source": "Intel",
-   "platform": "workday",
-   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-   "location": "Canada, Toronto",
-   "posted": "2026-10-16",
-   "employment_type": "Full time",
-   "score": 10,
-   "reasons": [
-    "title: Hardware Design +5",
-    "title: Hardware +2",
-    "title: Accelerator +2",
-    "desc: FPGA +1"
-   ],
-   "categories": [
-    "Design",
-    "FPGA"
-   ],
-   "degree": [
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-23",
-   "closed": "2026-10-24"
   },
   {
    "key": "workday:Micron:JR111823",
