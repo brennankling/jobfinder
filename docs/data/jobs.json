@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:29:12+00:00",
+ "generated_at": "2026-10-30T17:04:13+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,31 +12,31 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.3
+   "seconds": 2.4
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 111,
+   "fetched": 110,
    "matched": 22,
    "error": null,
-   "seconds": 2.4
+   "seconds": 1.8
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 614,
+   "fetched": 607,
    "matched": 2,
    "error": null,
-   "seconds": 32.8
+   "seconds": 58.7
   },
   {
    "name": "Astera Labs",
    "platform": "auto",
    "status": "ok",
-   "fetched": 172,
+   "fetched": 171,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
@@ -49,25 +49,25 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 372,
+   "fetched": 370,
    "matched": 0,
    "error": null,
-   "seconds": 8.9
+   "seconds": 22.8
   },
   {
    "name": "Cadence",
    "platform": "workday",
    "status": "ok",
-   "fetched": 467,
+   "fetched": 466,
    "matched": 4,
    "error": null,
-   "seconds": 28.4
+   "seconds": 23.9
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Cerebras (early talent)",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 121,
+   "fetched": 123,
    "matched": 3,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Groq",
@@ -114,16 +114,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 1.0
+   "seconds": 4.7
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 608,
+   "fetched": 605,
    "matched": 4,
    "error": null,
-   "seconds": 41.0
+   "seconds": 37.0
   },
   {
    "name": "Lightmatter",
@@ -133,7 +133,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Marvell",
@@ -142,17 +142,17 @@
    "fetched": 335,
    "matched": 17,
    "error": null,
-   "seconds": 43.1
+   "seconds": 24.3
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 42,
+   "fetched": 41,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Micron",
@@ -161,25 +161,25 @@
    "fetched": 400,
    "matched": 1,
    "error": null,
-   "seconds": 21.5
+   "seconds": 34.1
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 601,
+   "fetched": 606,
    "matched": 0,
    "error": null,
-   "seconds": 21.8
+   "seconds": 26.7
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 723,
-   "matched": 13,
+   "fetched": 722,
+   "matched": 14,
    "error": null,
-   "seconds": 59.4
+   "seconds": 82.3
   },
   {
    "name": "Positron",
@@ -188,35 +188,35 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.3
+   "seconds": 1.0
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 618,
+   "fetched": 626,
    "matched": 0,
    "error": null,
-   "seconds": 20.9
+   "seconds": 23.4
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 71,
+   "fetched": 72,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 458,
+   "fetched": 446,
    "matched": 0,
    "error": null,
-   "seconds": 30.1
+   "seconds": 28.7
   },
   {
    "name": "SiFive",
@@ -225,17 +225,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 1.9
+   "seconds": 0.7
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 124,
+   "fetched": 123,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Tenstorrent (university)",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 5.2
+   "seconds": 1.1
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -465,7 +465,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -498,7 +498,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -531,7 +531,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -595,7 +595,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -627,7 +627,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -659,7 +659,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -696,7 +696,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -727,7 +727,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -758,7 +758,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -789,7 +789,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -820,7 +820,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -850,7 +850,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -880,7 +880,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -909,7 +909,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -943,7 +943,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -977,7 +977,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1011,7 +1011,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1040,7 +1040,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1070,7 +1070,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1101,7 +1101,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1132,7 +1132,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1164,7 +1164,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1191,7 +1191,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1225,7 +1225,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1252,7 +1252,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1285,7 +1285,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1315,7 +1315,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1343,7 +1343,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1374,7 +1374,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1408,7 +1408,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1436,7 +1436,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1464,7 +1464,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1497,7 +1497,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1526,7 +1526,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1556,7 +1556,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1586,7 +1586,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1617,7 +1617,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1646,7 +1646,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1675,7 +1675,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1704,7 +1704,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1731,7 +1731,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1760,7 +1760,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1789,7 +1789,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1818,7 +1818,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1846,7 +1846,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1873,7 +1873,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1899,7 +1899,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1925,7 +1925,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1957,7 +1957,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -1984,7 +1984,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2011,7 +2011,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2038,7 +2038,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2065,7 +2065,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2092,7 +2092,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2120,7 +2120,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2148,7 +2148,35 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2026799",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-29",
+   "employment_type": "Full time",
+   "score": 8,
+   "reasons": [
+    "title: VLSI +5",
+    "desc: timing closure +1",
+    "desc: static timing +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Physical design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2177,7 +2205,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2203,7 +2231,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2229,7 +2257,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2252,7 +2280,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2277,7 +2305,7 @@
    ],
    "season": "Fall 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2302,7 +2330,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2327,7 +2355,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2352,7 +2380,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2377,7 +2405,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2403,7 +2431,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2426,7 +2454,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
@@ -2451,7 +2479,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "closed": null
   },
   {
