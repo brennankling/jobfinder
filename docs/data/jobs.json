@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:04:13+00:00",
+ "generated_at": "2026-10-31T16:10:43+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,25 +12,25 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 2.4
+   "seconds": 1.6
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 110,
+   "fetched": 109,
    "matched": 22,
    "error": null,
-   "seconds": 1.8
+   "seconds": 2.5
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 607,
+   "fetched": 602,
    "matched": 2,
    "error": null,
-   "seconds": 58.7
+   "seconds": 27.2
   },
   {
    "name": "Astera Labs",
@@ -49,25 +49,25 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.6
+   "seconds": 3.8
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 370,
+   "fetched": 372,
    "matched": 0,
    "error": null,
-   "seconds": 22.8
+   "seconds": 8.4
   },
   {
    "name": "Cadence",
    "platform": "workday",
    "status": "ok",
-   "fetched": 466,
+   "fetched": 465,
    "matched": 4,
    "error": null,
-   "seconds": 23.9
+   "seconds": 19.3
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Cerebras (early talent)",
@@ -95,7 +95,7 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Etched",
@@ -105,7 +105,7 @@
    "matched": 3,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Groq",
@@ -114,26 +114,26 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 4.7
+   "seconds": 13.3
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 605,
-   "matched": 4,
+   "fetched": 606,
+   "matched": 3,
    "error": null,
-   "seconds": 37.0
+   "seconds": 36.6
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 59,
+   "fetched": 58,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "name": "Marvell",
@@ -142,7 +142,7 @@
    "fetched": 335,
    "matched": 17,
    "error": null,
-   "seconds": 24.3
+   "seconds": 19.1
   },
   {
    "name": "MatX",
@@ -152,7 +152,7 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "name": "Micron",
@@ -161,25 +161,25 @@
    "fetched": 400,
    "matched": 1,
    "error": null,
-   "seconds": 34.1
+   "seconds": 16.2
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 606,
+   "fetched": 605,
    "matched": 0,
    "error": null,
-   "seconds": 26.7
+   "seconds": 23.3
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 722,
+   "fetched": 723,
    "matched": 14,
    "error": null,
-   "seconds": 82.3
+   "seconds": 45.4
   },
   {
    "name": "Positron",
@@ -188,16 +188,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.0
+   "seconds": 0.8
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 626,
+   "fetched": 635,
    "matched": 0,
    "error": null,
-   "seconds": 23.4
+   "seconds": 18.7
   },
   {
    "name": "SambaNova",
@@ -207,16 +207,16 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 446,
+   "fetched": 440,
    "matched": 0,
    "error": null,
-   "seconds": 28.7
+   "seconds": 30.5
   },
   {
    "name": "SiFive",
@@ -225,17 +225,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.7
+   "seconds": 0.4
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 123,
+   "fetched": 126,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Tenstorrent (university)",
@@ -244,7 +244,7 @@
    "fetched": 15,
    "matched": 4,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 1.1
+   "seconds": 1.8
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -330,7 +330,7 @@
    "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 31,
    "reasons": [
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -371,7 +371,7 @@
    "title": "NVIDIA 2027 Internships: Hardware Verification",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 27,
    "reasons": [
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -407,7 +407,7 @@
    "title": "ASIC Verification Intern - Summer 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
    "location": "Canada, Toronto",
-   "posted": "2026-10-19",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 26,
    "reasons": [
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -465,7 +465,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -498,7 +498,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -531,7 +531,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -595,7 +595,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -627,7 +627,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -659,7 +659,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -696,7 +696,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -727,7 +727,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -758,7 +758,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -768,7 +768,7 @@
    "title": "PCIe Design Verification Intern - Spring 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PCIe-Design-Verification-Intern---Spring-2027_JR2026704",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-12",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 22,
    "reasons": [
@@ -789,7 +789,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -799,7 +799,7 @@
    "title": "PCIe Design Verification Intern - Summer 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-TX-Austin/PCIe-Design-Verification-Intern---Summer-2027_JR2026708",
    "location": "US, TX, Austin",
-   "posted": "2026-10-12",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 22,
    "reasons": [
@@ -820,7 +820,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -850,7 +850,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -880,7 +880,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -909,7 +909,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -943,7 +943,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -977,7 +977,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1011,7 +1011,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1040,7 +1040,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1070,7 +1070,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1101,7 +1101,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1132,7 +1132,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1164,7 +1164,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1191,7 +1191,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1225,7 +1225,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1252,7 +1252,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1262,7 +1262,7 @@
    "title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 17,
    "reasons": [
@@ -1285,7 +1285,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1315,7 +1315,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1343,7 +1343,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1374,7 +1374,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1408,7 +1408,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1436,7 +1436,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1464,7 +1464,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1497,7 +1497,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1507,7 +1507,7 @@
    "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-27",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 13,
    "reasons": [
@@ -1526,7 +1526,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1556,7 +1556,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1586,7 +1586,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1617,7 +1617,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1627,7 +1627,7 @@
    "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 12,
    "reasons": [
@@ -1646,7 +1646,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1675,7 +1675,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1685,7 +1685,7 @@
    "title": "NVIDIA 2027 Internships: Hardware Engineering",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-12",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 11,
    "reasons": [
@@ -1704,7 +1704,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1731,7 +1731,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1760,7 +1760,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1770,7 +1770,7 @@
    "title": "NVIDIA 2027 Internships: Digital Circuit Design",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 10,
    "reasons": [
@@ -1789,7 +1789,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1799,7 +1799,7 @@
    "title": "NVIDIA 2027 Internships: Computer Architecture",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 10,
    "reasons": [
@@ -1818,35 +1818,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
-   "closed": null
-  },
-  {
-   "key": "workday:Intel:JR0287539",
-   "source": "Intel",
-   "platform": "workday",
-   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-   "location": "Canada, Toronto",
-   "posted": "2026-10-27",
-   "employment_type": "Full time",
-   "score": 10,
-   "reasons": [
-    "title: Hardware Design +5",
-    "title: Hardware +2",
-    "title: Accelerator +2",
-    "desc: FPGA +1"
-   ],
-   "categories": [
-    "Design",
-    "FPGA"
-   ],
-   "degree": [
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1873,7 +1845,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1899,7 +1871,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1925,7 +1897,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1957,7 +1929,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -1984,7 +1956,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2011,7 +1983,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2038,7 +2010,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2065,7 +2037,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2092,7 +2064,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2120,7 +2092,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2148,7 +2120,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2158,7 +2130,7 @@
    "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-29",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 8,
    "reasons": [
@@ -2176,7 +2148,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2186,7 +2158,7 @@
    "title": "NVIDIA 2027 Internships: Mixed Signal Design",
    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502",
    "location": "US, CA, Santa Clara",
-   "posted": "2026-10-22",
+   "posted": "2026-10-30",
    "employment_type": "Full time",
    "score": 7,
    "reasons": [
@@ -2205,7 +2177,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2231,7 +2203,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2257,7 +2229,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2280,7 +2252,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2305,7 +2277,7 @@
    ],
    "season": "Fall 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2330,7 +2302,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2355,7 +2327,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2380,7 +2352,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2405,7 +2377,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2431,7 +2403,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2454,7 +2426,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2479,7 +2451,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "closed": null
   },
   {
@@ -2696,6 +2668,34 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-25",
    "closed": "2026-10-26"
+  },
+  {
+   "key": "workday:Intel:JR0287539",
+   "source": "Intel",
+   "platform": "workday",
+   "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+   "location": "Canada, Toronto",
+   "posted": "2026-10-27",
+   "employment_type": "Full time",
+   "score": 10,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "title: Accelerator +2",
+    "desc: FPGA +1"
+   ],
+   "categories": [
+    "Design",
+    "FPGA"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-30",
+   "closed": "2026-10-31"
   },
   {
    "key": "workday:Micron:JR111823",
