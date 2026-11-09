@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T17:08:11+00:00",
+ "generated_at": "2026-11-09T21:29:39+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,7 +12,7 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.7
+   "seconds": 1.3
   },
   {
    "name": "AMD",
@@ -21,16 +21,16 @@
    "fetched": 106,
    "matched": 21,
    "error": null,
-   "seconds": 2.1
+   "seconds": 2.4
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 614,
+   "fetched": 609,
    "matched": 2,
    "error": null,
-   "seconds": 30.3
+   "seconds": 74.2
   },
   {
    "name": "Astera Labs",
@@ -49,16 +49,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.5
+   "seconds": 3.4
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 390,
+   "fetched": 389,
    "matched": 0,
    "error": null,
-   "seconds": 8.0
+   "seconds": 15.3
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 475,
    "matched": 4,
    "error": null,
-   "seconds": 20.7
+   "seconds": 28.6
   },
   {
    "name": "Cerebras",
@@ -95,13 +95,13 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 115,
+   "fetched": 114,
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
@@ -114,7 +114,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 2.0
+   "seconds": 0.6
   },
   {
    "name": "Intel",
@@ -123,7 +123,7 @@
    "fetched": 617,
    "matched": 4,
    "error": null,
-   "seconds": 33.9
+   "seconds": 46.6
   },
   {
    "name": "Lightmatter",
@@ -133,22 +133,22 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
-   "fetched": 343,
-   "matched": 17,
+   "fetched": 337,
+   "matched": 15,
    "error": null,
-   "seconds": 32.1
+   "seconds": 46.9
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 41,
+   "fetched": 40,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
@@ -159,27 +159,27 @@
    "platform": "workday",
    "status": "ok",
    "fetched": 400,
-   "matched": 2,
+   "matched": 1,
    "error": null,
-   "seconds": 19.6
+   "seconds": 41.4
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 607,
+   "fetched": 639,
    "matched": 0,
    "error": null,
-   "seconds": 18.8
+   "seconds": 32.1
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 722,
+   "fetched": 721,
    "matched": 15,
    "error": null,
-   "seconds": 46.9
+   "seconds": 51.2
   },
   {
    "name": "Positron",
@@ -188,16 +188,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 2.9
+   "seconds": 3.6
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 629,
-   "matched": 0,
+   "fetched": 614,
+   "matched": 1,
    "error": null,
-   "seconds": 15.5
+   "seconds": 17.0
   },
   {
    "name": "SambaNova",
@@ -213,10 +213,10 @@
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 443,
+   "fetched": 449,
    "matched": 0,
    "error": null,
-   "seconds": 33.2
+   "seconds": 33.7
   },
   {
    "name": "SiFive",
@@ -231,7 +231,7 @@
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 127,
+   "fetched": 125,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 1.0
+   "seconds": 0.5
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -465,7 +465,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -498,7 +498,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -531,7 +531,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -595,7 +595,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -627,7 +627,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -659,7 +659,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -696,7 +696,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -727,7 +727,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -758,7 +758,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -789,7 +789,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -820,7 +820,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -850,7 +850,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -880,36 +880,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-08",
-   "closed": null
-  },
-  {
-   "key": "workday:Marvell:2604466",
-   "source": "Marvell",
-   "platform": "workday",
-   "title": "Design Verification Intern",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/VN---Da-Nang/Design-Verification-Intern_2604466",
-   "location": "VN - Da Nang",
-   "posted": "2026-10-08",
-   "employment_type": "Full time",
-   "score": 21,
-   "reasons": [
-    "title: Design Verification +7",
-    "title: Verification +5",
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: UVM +3"
-   ],
-   "categories": [
-    "Verification"
-   ],
-   "degree": [
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -943,7 +914,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -977,7 +948,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1011,7 +982,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1040,7 +1011,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1070,7 +1041,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1101,7 +1072,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1132,39 +1103,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
-   "closed": null
-  },
-  {
-   "key": "workday:Marvell:2604525",
-   "source": "Marvell",
-   "platform": "workday",
-   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
-   "location": "Ottawa, Canada; Toronto, Canada",
-   "posted": "2026-09-24",
-   "employment_type": "Full time",
-   "score": 18,
-   "reasons": [
-    "title: Hardware +2",
-    "title: Silicon +2",
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: RTL +3",
-    "desc: UVM +3",
-    "desc: synthesis +1",
-    "desc: formal verification +1"
-   ],
-   "categories": [
-    "Verification",
-    "Design"
-   ],
-   "degree": [
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1191,7 +1130,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1225,7 +1164,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1252,7 +1191,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1285,7 +1224,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1315,7 +1254,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1343,38 +1282,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
-   "closed": null
-  },
-  {
-   "key": "workday:Micron:JR112163",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - ASIC Digital Design",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163",
-   "location": "Minneapolis, MN",
-   "posted": "2026-10-29",
-   "employment_type": "Full time",
-   "score": 16,
-   "reasons": [
-    "title: ASIC +6",
-    "title: Digital Design +7",
-    "title: Digital +1",
-    "desc: Synthesis +1",
-    "desc: formal verification +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Design"
-   ],
-   "degree": [
-    "PhD",
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-20",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1408,7 +1316,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1436,7 +1344,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1464,7 +1372,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1497,7 +1405,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1526,7 +1434,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1556,7 +1464,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1586,7 +1494,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1617,7 +1525,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1646,7 +1554,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1675,7 +1583,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1704,7 +1612,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1728,7 +1636,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1757,7 +1665,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1786,7 +1694,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1813,7 +1721,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1839,7 +1747,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1865,7 +1773,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1897,7 +1805,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1923,7 +1831,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1950,7 +1858,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -1977,7 +1885,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2004,7 +1912,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2031,7 +1939,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2055,7 +1963,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2083,7 +1991,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2111,7 +2019,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2139,7 +2047,32 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
+   "closed": null
+  },
+  {
+   "key": "workday:RTX:01886573",
+   "source": "RTX",
+   "platform": "workday",
+   "title": "Electronic Warfare Electrical Engineer Intern (Summer 2027)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Electronic-Warfare-Electrical-Engineer-Intern--Summer-2027--Onsite-_01886573",
+   "location": "US-CA-GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01",
+   "posted": "2026-11-09",
+   "employment_type": "Full time",
+   "score": 8,
+   "reasons": [
+    "title: Electrical Engineer +1",
+    "desc: Verilog +3",
+    "desc: VHDL +3",
+    "desc: Vivado +1"
+   ],
+   "categories": [
+    "FPGA"
+   ],
+   "degree": [],
+   "season": "Summer 2027",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2168,7 +2101,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2194,7 +2127,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2220,7 +2153,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2243,7 +2176,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2268,7 +2201,7 @@
    ],
    "season": "Fall 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2293,7 +2226,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2318,7 +2251,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2343,7 +2276,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2368,7 +2301,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2394,7 +2327,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2417,7 +2350,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2442,7 +2375,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2467,7 +2400,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "closed": null
   },
   {
@@ -2499,6 +2432,67 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-26",
    "closed": "2026-10-27"
+  },
+  {
+   "key": "workday:Marvell:2604466",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Design Verification Intern",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/VN---Da-Nang/Design-Verification-Intern_2604466",
+   "location": "VN - Da Nang",
+   "posted": "2026-10-08",
+   "employment_type": "Full time",
+   "score": 21,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: UVM +3"
+   ],
+   "categories": [
+    "Verification"
+   ],
+   "degree": [
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-08",
+   "closed": "2026-11-09"
+  },
+  {
+   "key": "workday:Marvell:2604525",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
+   "location": "Ottawa, Canada; Toronto, Canada",
+   "posted": "2026-09-24",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "title: Hardware +2",
+    "title: Silicon +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: synthesis +1",
+    "desc: formal verification +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-08",
+   "closed": "2026-11-09"
   },
   {
    "key": "workday:Micron:JR112552",
@@ -2607,6 +2601,37 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-22",
    "closed": "2026-10-23"
+  },
+  {
+   "key": "workday:Micron:JR112163",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - ASIC Digital Design",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163",
+   "location": "Minneapolis, MN",
+   "posted": "2026-10-29",
+   "employment_type": "Full time",
+   "score": 16,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Digital Design +7",
+    "title: Digital +1",
+    "desc: Synthesis +1",
+    "desc: formal verification +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-11-08",
+   "closed": "2026-11-09"
   },
   {
    "key": "workday:Marvell:2604462",
