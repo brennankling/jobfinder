@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:45:07+00:00",
+ "generated_at": "2026-11-12T18:59:56+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,35 +12,35 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.3
+   "seconds": 1.7
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 17,
-   "matched": 1,
+   "fetched": 16,
+   "matched": 0,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.7
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 603,
+   "fetched": 595,
    "matched": 2,
    "error": null,
-   "seconds": 35.3
+   "seconds": 38.6
   },
   {
    "name": "Astera Labs",
    "platform": "auto",
    "status": "ok",
-   "fetched": 175,
+   "fetched": 174,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Ayar Labs",
@@ -49,16 +49,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.7
+   "seconds": 0.6
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 397,
+   "fetched": 408,
    "matched": 0,
    "error": null,
-   "seconds": 8.9
+   "seconds": 7.4
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 475,
    "matched": 4,
    "error": null,
-   "seconds": 22.4
+   "seconds": 29.8
   },
   {
    "name": "Cerebras",
@@ -85,7 +85,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "name": "d-Matrix",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 116,
+   "fetched": 114,
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Groq",
@@ -114,72 +114,72 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 18.2
+   "seconds": 0.6
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 618,
+   "fetched": 621,
    "matched": 4,
    "error": null,
-   "seconds": 36.1
+   "seconds": 34.9
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 55,
+   "fetched": 65,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
-   "fetched": 335,
+   "fetched": 336,
    "matched": 10,
    "error": null,
-   "seconds": 25.6
+   "seconds": 26.8
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 40,
+   "fetched": 42,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.2
+   "seconds": 9.4
   },
   {
    "name": "Micron",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 400,
-   "matched": 1,
-   "error": null,
-   "seconds": 18.2
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTP 400 from https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
+   "seconds": 1.0
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 628,
+   "fetched": 605,
    "matched": 0,
    "error": null,
-   "seconds": 28.9
+   "seconds": 23.1
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 715,
+   "fetched": 714,
    "matched": 15,
    "error": null,
-   "seconds": 55.9
+   "seconds": 60.4
   },
   {
    "name": "Positron",
@@ -188,35 +188,35 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 4.6
+   "seconds": 1.0
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
-   "fetched": 601,
+   "fetched": 592,
    "matched": 1,
    "error": null,
-   "seconds": 21.0
+   "seconds": 29.0
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 71,
+   "fetched": 72,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Samsung Semiconductor",
    "platform": "workday",
    "status": "ok",
-   "fetched": 452,
+   "fetched": 453,
    "matched": 0,
    "error": null,
-   "seconds": 32.3
+   "seconds": 32.0
   },
   {
    "name": "SiFive",
@@ -225,13 +225,13 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 122,
+   "fetched": 123,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 2.5
+   "seconds": 0.6
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -464,7 +464,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -501,7 +501,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -532,7 +532,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -593,7 +593,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -623,7 +623,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -652,37 +652,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
-   "closed": null
-  },
-  {
-   "key": "jibe:AMD:91207",
-   "source": "AMD",
-   "platform": "jibe",
-   "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
-   "url": "https://careers.amd.com/careers-home/jobs/91207",
-   "location": "OTTAWA, Canada",
-   "posted": "2026-09-02",
-   "employment_type": "",
-   "score": 19,
-   "reasons": [
-    "title: ASIC +6",
-    "title: Verification +5",
-    "desc: SystemVerilog +3",
-    "desc: UVM +3",
-    "desc: testbench +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Design",
-    "Verification"
-   ],
-   "degree": [
-    "PhD"
-   ],
-   "season": "Summer 2027",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -709,7 +679,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -743,7 +713,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -770,7 +740,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -803,7 +773,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -833,7 +803,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -861,7 +831,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -895,7 +865,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -923,7 +893,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -951,7 +921,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -984,7 +954,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1013,7 +983,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1044,7 +1014,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1073,7 +1043,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1102,7 +1072,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1131,7 +1101,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1155,7 +1125,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1184,7 +1154,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1213,7 +1183,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1240,7 +1210,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1266,7 +1236,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1292,7 +1262,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1324,7 +1294,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1350,7 +1320,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1402,7 +1372,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1430,7 +1400,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1455,7 +1425,7 @@
    "degree": [],
    "season": "Summer 2027",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1484,7 +1454,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1510,7 +1480,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1536,7 +1506,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1559,7 +1529,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1585,7 +1555,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1608,7 +1578,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1633,7 +1603,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -1658,7 +1628,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "closed": null
   },
   {
@@ -2110,6 +2080,36 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-10",
    "closed": "2026-11-11"
+  },
+  {
+   "key": "jibe:AMD:91207",
+   "source": "AMD",
+   "platform": "jibe",
+   "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
+   "url": "https://careers.amd.com/careers-home/jobs/91207",
+   "location": "OTTAWA, Canada",
+   "posted": "2026-09-02",
+   "employment_type": "",
+   "score": 19,
+   "reasons": [
+    "title: ASIC +6",
+    "title: Verification +5",
+    "desc: SystemVerilog +3",
+    "desc: UVM +3",
+    "desc: testbench +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Design",
+    "Verification"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-11",
+   "closed": "2026-11-12"
   },
   {
    "key": "workday:Marvell:2604828",
