@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:59:56+00:00",
+ "generated_at": "2026-11-13T18:36:14+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,25 +12,25 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.7
+   "seconds": 1.3
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 16,
+   "fetched": 17,
    "matched": 0,
    "error": null,
-   "seconds": 0.7
+   "seconds": 0.9
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
    "status": "ok",
-   "fetched": 595,
+   "fetched": 597,
    "matched": 2,
    "error": null,
-   "seconds": 38.6
+   "seconds": 37.6
   },
   {
    "name": "Astera Labs",
@@ -40,7 +40,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Ayar Labs",
@@ -49,16 +49,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.6
+   "seconds": 0.7
   },
   {
    "name": "Broadcom",
    "platform": "workday",
    "status": "ok",
-   "fetched": 408,
+   "fetched": 401,
    "matched": 0,
    "error": null,
-   "seconds": 7.4
+   "seconds": 9.7
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 475,
    "matched": 4,
    "error": null,
-   "seconds": 29.8
+   "seconds": 23.6
   },
   {
    "name": "Cerebras",
@@ -85,7 +85,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "d-Matrix",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 114,
+   "fetched": 116,
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Groq",
@@ -114,35 +114,35 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 0.6
+   "seconds": 0.9
   },
   {
    "name": "Intel",
    "platform": "workday",
    "status": "ok",
-   "fetched": 621,
+   "fetched": 624,
    "matched": 4,
    "error": null,
-   "seconds": 34.9
+   "seconds": 38.8
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 65,
-   "matched": 0,
+   "fetched": 72,
+   "matched": 1,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Marvell",
    "platform": "workday",
    "status": "ok",
    "fetched": 336,
-   "matched": 10,
+   "matched": 11,
    "error": null,
-   "seconds": 26.8
+   "seconds": 22.9
   },
   {
    "name": "MatX",
@@ -152,34 +152,34 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 9.4
+   "seconds": 0.2
   },
   {
    "name": "Micron",
    "platform": "workday",
-   "status": "error",
-   "fetched": 0,
+   "status": "ok",
+   "fetched": 400,
    "matched": 0,
-   "error": "HTTP 400 from https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-   "seconds": 1.0
+   "error": null,
+   "seconds": 17.1
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
    "status": "ok",
-   "fetched": 605,
+   "fetched": 615,
    "matched": 0,
    "error": null,
-   "seconds": 23.1
+   "seconds": 23.3
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
    "status": "ok",
-   "fetched": 714,
+   "fetched": 716,
    "matched": 15,
    "error": null,
-   "seconds": 60.4
+   "seconds": 58.8
   },
   {
    "name": "Positron",
@@ -188,26 +188,26 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.0
+   "seconds": 0.7
   },
   {
    "name": "RTX",
    "platform": "workday",
    "status": "ok",
    "fetched": 592,
-   "matched": 1,
+   "matched": 3,
    "error": null,
-   "seconds": 29.0
+   "seconds": 25.2
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 72,
+   "fetched": 73,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Samsung Semiconductor",
@@ -216,7 +216,7 @@
    "fetched": 453,
    "matched": 0,
    "error": null,
-   "seconds": 32.0
+   "seconds": 32.8
   },
   {
    "name": "SiFive",
@@ -231,7 +231,7 @@
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 123,
+   "fetched": 132,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 0.6
+   "seconds": 1.0
   }
  ],
  "manual": [
@@ -320,7 +320,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -361,7 +361,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -397,7 +397,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -432,7 +432,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -464,7 +464,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -501,7 +501,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -532,7 +532,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -563,7 +563,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -593,7 +593,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -623,7 +623,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -652,7 +652,39 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
+   "closed": null
+  },
+  {
+   "key": "workday:Marvell:2604525",
+   "source": "Marvell",
+   "platform": "workday",
+   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
+   "location": "Ottawa, Canada; Toronto, Canada",
+   "posted": "2026-11-13",
+   "employment_type": "Full time",
+   "score": 18,
+   "reasons": [
+    "title: Hardware +2",
+    "title: Silicon +2",
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: synthesis +1",
+    "desc: formal verification +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -679,7 +711,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -713,7 +745,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -740,7 +772,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -773,7 +805,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -803,7 +835,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -831,7 +863,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -865,7 +897,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -893,7 +925,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -921,7 +953,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -954,7 +986,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -983,7 +1015,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1014,7 +1046,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1043,7 +1075,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1072,7 +1104,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1101,7 +1133,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1125,7 +1157,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1154,7 +1186,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1183,7 +1215,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1210,7 +1242,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1236,7 +1268,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1262,7 +1294,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1294,7 +1326,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1320,31 +1352,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
-   "closed": null
-  },
-  {
-   "key": "workday:Micron:JR113469",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - System Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469",
-   "location": "Boise, ID - Main Site",
-   "posted": "2026-11-02",
-   "employment_type": "Full time",
-   "score": 9,
-   "reasons": [
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: RTL +3"
-   ],
-   "categories": [
-    "Design"
-   ],
-   "degree": [],
-   "season": "",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1372,7 +1380,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1400,7 +1408,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1425,7 +1433,55 @@
    "degree": [],
    "season": "Summer 2027",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
+   "closed": null
+  },
+  {
+   "key": "workday:RTX:01871519",
+   "source": "RTX",
+   "platform": "workday",
+   "title": "Digital Hardware Design Engineer Co-op (Summer/Fall 2027)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Summer-Fall-2027--Onsite-_01871519",
+   "location": "US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130",
+   "posted": "2026-11-12",
+   "employment_type": "Full time",
+   "score": 8,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "title: Digital +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [],
+   "season": "Fall 2027",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "closed": null
+  },
+  {
+   "key": "workday:RTX:01871518",
+   "source": "RTX",
+   "platform": "workday",
+   "title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1",
+   "location": "US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130",
+   "posted": "2026-11-12",
+   "employment_type": "Full time",
+   "score": 8,
+   "reasons": [
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "title: Digital +1"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1454,7 +1510,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1480,7 +1536,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1506,7 +1562,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1529,7 +1585,7 @@
    "degree": [],
    "season": "Fall 2026",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1555,7 +1611,33 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Lightmatter:5481668008",
+   "source": "Lightmatter",
+   "platform": "greenhouse",
+   "title": "Physical Design, Intern (Summer 2027)",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5481668008?gh_jid=5481668008",
+   "location": "Boston, MA",
+   "posted": "2026-11-13",
+   "employment_type": "",
+   "score": 7,
+   "reasons": [
+    "title: Physical Design +6",
+    "desc: synthesis +1"
+   ],
+   "categories": [
+    "Physical design"
+   ],
+   "degree": [
+    "PhD",
+    "MS"
+   ],
+   "season": "Summer 2027",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1578,7 +1660,7 @@
    "degree": [],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1603,7 +1685,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -1628,7 +1710,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "closed": null
   },
   {
@@ -2174,38 +2256,6 @@
    "closed": "2026-11-11"
   },
   {
-   "key": "workday:Marvell:2604525",
-   "source": "Marvell",
-   "platform": "workday",
-   "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
-   "location": "Ottawa, Canada; Toronto, Canada",
-   "posted": "2026-09-24",
-   "employment_type": "Full time",
-   "score": 18,
-   "reasons": [
-    "title: Hardware +2",
-    "title: Silicon +2",
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: RTL +3",
-    "desc: UVM +3",
-    "desc: synthesis +1",
-    "desc: formal verification +1"
-   ],
-   "categories": [
-    "Verification",
-    "Design"
-   ],
-   "degree": [
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-08",
-   "closed": "2026-11-09"
-  },
-  {
    "key": "workday:Micron:JR112552",
    "source": "Micron",
    "platform": "workday",
@@ -2703,6 +2753,30 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-01",
    "closed": "2026-11-02"
+  },
+  {
+   "key": "workday:Micron:JR113469",
+   "source": "Micron",
+   "platform": "workday",
+   "title": "Intern - System Engineer, HBM",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469",
+   "location": "Boise, ID - Main Site",
+   "posted": "2026-11-02",
+   "employment_type": "Full time",
+   "score": 9,
+   "reasons": [
+    "desc: Verilog +3",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3"
+   ],
+   "categories": [
+    "Design"
+   ],
+   "degree": [],
+   "season": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-11",
+   "closed": "2026-11-13"
   },
   {
    "key": "jibe:AMD:91239",
