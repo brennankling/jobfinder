@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T17:50:31+00:00",
+ "generated_at": "2026-11-16T21:06:06+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,25 +12,25 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.9
+   "seconds": 1.3
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 17,
+   "fetched": 16,
    "matched": 0,
    "error": null,
-   "seconds": 1.1
+   "seconds": 1.0
   },
   {
    "name": "Analog Devices",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 599,
-   "matched": 2,
-   "error": null,
-   "seconds": 28.3
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "Astera Labs",
@@ -40,7 +40,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Ayar Labs",
@@ -49,25 +49,25 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 18.0
+   "seconds": 1.7
   },
   {
    "name": "Broadcom",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 400,
+   "status": "error",
+   "fetched": 0,
    "matched": 0,
-   "error": null,
-   "seconds": 9.5
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "Cadence",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 476,
-   "matched": 4,
-   "error": null,
-   "seconds": 20.8
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Cerebras (early talent)",
@@ -95,7 +95,7 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Etched",
@@ -114,35 +114,35 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 19.3
+   "seconds": 1.8
   },
   {
    "name": "Intel",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 626,
-   "matched": 4,
-   "error": null,
-   "seconds": 35.0
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.3
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 73,
+   "fetched": 72,
    "matched": 1,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Marvell",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 341,
-   "matched": 11,
-   "error": null,
-   "seconds": 21.3
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "MatX",
@@ -152,34 +152,34 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "Micron",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 400,
+   "status": "error",
+   "fetched": 0,
    "matched": 0,
-   "error": null,
-   "seconds": 18.3
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "Northrop Grumman",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 632,
+   "status": "error",
+   "fetched": 0,
    "matched": 0,
-   "error": null,
-   "seconds": 21.0
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "NVIDIA",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 717,
-   "matched": 15,
-   "error": null,
-   "seconds": 44.1
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.2
   },
   {
    "name": "Positron",
@@ -188,16 +188,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 8.5
+   "seconds": 0.9
   },
   {
    "name": "RTX",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 598,
-   "matched": 3,
-   "error": null,
-   "seconds": 16.8
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 9.3
   },
   {
    "name": "SambaNova",
@@ -207,16 +207,16 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Samsung Semiconductor",
    "platform": "workday",
-   "status": "ok",
-   "fetched": 454,
-   "matched": 1,
-   "error": null,
-   "seconds": 33.8
+   "status": "error",
+   "fetched": 0,
+   "matched": 0,
+   "error": "request failed: RetryError",
+   "seconds": 11.2
   },
   {
    "name": "SiFive",
@@ -225,17 +225,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.4
+   "seconds": 0.9
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 133,
+   "fetched": 134,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Tenstorrent (university)",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 6.9
+   "seconds": 0.5
   }
  ],
  "manual": [
@@ -501,7 +501,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
@@ -656,6 +656,40 @@
    "closed": null
   },
   {
+   "key": "greenhouse:Tenstorrent (university):5256706007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Silicon Intern - Physical Design & DFT (USA)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256706007",
+   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
+   "posted": "2026-10-07",
+   "employment_type": "",
+   "score": 18,
+   "reasons": [
+    "title: Physical Design +6",
+    "title: DFT +4",
+    "title: Silicon +2",
+    "desc: RTL +3",
+    "desc: Synthesis +1",
+    "desc: timing closure +1",
+    "desc: RISC-V +1"
+   ],
+   "categories": [
+    "Physical design",
+    "DFT",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-16",
+   "closed": null
+  },
+  {
    "key": "workday:Marvell:2604525",
    "source": "Marvell",
    "platform": "workday",
@@ -715,40 +749,6 @@
    "closed": null
   },
   {
-   "key": "greenhouse:Tenstorrent (university):5256706007",
-   "source": "Tenstorrent (university)",
-   "platform": "greenhouse",
-   "title": "Silicon Intern - Physical Design & DFT (USA)",
-   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256706007",
-   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
-   "posted": "2026-10-07",
-   "employment_type": "",
-   "score": 18,
-   "reasons": [
-    "title: Physical Design +6",
-    "title: DFT +4",
-    "title: Silicon +2",
-    "desc: RTL +3",
-    "desc: Synthesis +1",
-    "desc: timing closure +1",
-    "desc: RISC-V +1"
-   ],
-   "categories": [
-    "Physical design",
-    "DFT",
-    "Design"
-   ],
-   "degree": [
-    "PhD",
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
-   "closed": null
-  },
-  {
    "key": "workday:Intel:JR0287651",
    "source": "Intel",
    "platform": "workday",
@@ -773,6 +773,36 @@
    "season": "",
    "first_seen": "2026-10-21",
    "last_seen": "2026-11-15",
+   "closed": null
+  },
+  {
+   "key": "ashby:Etched:dacedaca-c4ca-4964-85a7-8df1738005bb",
+   "source": "Etched",
+   "platform": "ashby",
+   "title": "DV Intern",
+   "url": "https://jobs.ashbyhq.com/Etched/dacedaca-c4ca-4964-85a7-8df1738005bb",
+   "location": "San Jose",
+   "posted": "2026-02-07",
+   "employment_type": "Intern",
+   "score": 17,
+   "reasons": [
+    "title: DV +6",
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: UVM +3",
+    "desc: formal verification +1",
+    "desc: ASIC +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD"
+   ],
+   "season": "Spring 2027",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
@@ -804,36 +834,6 @@
     "BS"
    ],
    "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
-   "closed": null
-  },
-  {
-   "key": "ashby:Etched:dacedaca-c4ca-4964-85a7-8df1738005bb",
-   "source": "Etched",
-   "platform": "ashby",
-   "title": "DV Intern",
-   "url": "https://jobs.ashbyhq.com/Etched/dacedaca-c4ca-4964-85a7-8df1738005bb",
-   "location": "San Jose",
-   "posted": "2026-02-07",
-   "employment_type": "Intern",
-   "score": 17,
-   "reasons": [
-    "title: DV +6",
-    "desc: SystemVerilog +3",
-    "desc: RTL +3",
-    "desc: UVM +3",
-    "desc: formal verification +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Verification",
-    "Design"
-   ],
-   "degree": [
-    "PhD"
-   ],
-   "season": "Spring 2027",
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-15",
    "closed": null
@@ -927,35 +927,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
-   "closed": null
-  },
-  {
-   "key": "workday:Marvell:2604148",
-   "source": "Marvell",
-   "platform": "workday",
-   "title": "Security Verification/Validation Engineer Intern, BS - Summer 2027",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1",
-   "location": "Chandler, AZ",
-   "posted": "2026-09-23",
-   "employment_type": "Full time",
-   "score": 14,
-   "reasons": [
-    "title: Verification +5",
-    "desc: Verilog +3",
-    "desc: System Verilog +3",
-    "desc: RTL +3"
-   ],
-   "categories": [
-    "Verification",
-    "Design"
-   ],
-   "degree": [
-    "BS"
-   ],
-   "season": "Summer 2027",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
@@ -983,7 +955,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
@@ -1016,34 +988,33 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
-   "key": "workday:NVIDIA:JR2026584",
-   "source": "NVIDIA",
+   "key": "workday:Marvell:2604148",
+   "source": "Marvell",
    "platform": "workday",
-   "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1",
-   "location": "US, CA, Santa Clara",
-   "posted": "2026-10-30",
+   "title": "Security Verification/Validation Engineer Intern, BS - Summer 2027",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148-1",
+   "location": "Chandler, AZ",
+   "posted": "2026-09-23",
    "employment_type": "Full time",
-   "score": 13,
+   "score": 14,
    "reasons": [
-    "title: VLSI +5",
-    "title: Accelerator +2",
-    "desc: SystemVerilog +3",
-    "desc: Synthesis +1",
-    "desc: micro-architecture +1",
-    "desc: ASIC +1"
+    "title: Verification +5",
+    "desc: Verilog +3",
+    "desc: System Verilog +3",
+    "desc: RTL +3"
    ],
    "categories": [
+    "Verification",
     "Design"
    ],
    "degree": [
-    "PhD"
+    "BS"
    ],
-   "season": "",
+   "season": "Summer 2027",
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-15",
    "closed": null
@@ -1076,32 +1047,32 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
-   "key": "workday:NVIDIA:JR2023487",
+   "key": "workday:NVIDIA:JR2026584",
    "source": "NVIDIA",
    "platform": "workday",
-   "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+   "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1",
    "location": "US, CA, Santa Clara",
    "posted": "2026-10-30",
    "employment_type": "Full time",
-   "score": 12,
+   "score": 13,
    "reasons": [
-    "title: Design for Test +4",
-    "title: Hardware Design +5",
-    "title: Hardware +2",
-    "desc: Static Timing +1"
+    "title: VLSI +5",
+    "title: Accelerator +2",
+    "desc: SystemVerilog +3",
+    "desc: Synthesis +1",
+    "desc: micro-architecture +1",
+    "desc: ASIC +1"
    ],
    "categories": [
-    "DFT",
     "Design"
    ],
    "degree": [
-    "PhD",
-    "MS"
+    "PhD"
    ],
    "season": "",
    "first_seen": "2026-10-19",
@@ -1131,6 +1102,35 @@
    "degree": [
     "MS",
     "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-16",
+   "closed": null
+  },
+  {
+   "key": "workday:NVIDIA:JR2023487",
+   "source": "NVIDIA",
+   "platform": "workday",
+   "title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1",
+   "location": "US, CA, Santa Clara",
+   "posted": "2026-10-30",
+   "employment_type": "Full time",
+   "score": 12,
+   "reasons": [
+    "title: Design for Test +4",
+    "title: Hardware Design +5",
+    "title: Hardware +2",
+    "desc: Static Timing +1"
+   ],
+   "categories": [
+    "DFT",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS"
    ],
    "season": "",
    "first_seen": "2026-10-19",
@@ -1188,6 +1188,38 @@
    "season": "",
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-15",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Tenstorrent (university):5256699007",
+   "source": "Tenstorrent (university)",
+   "platform": "greenhouse",
+   "title": "Intern, RISC-V CPU (USA)",
+   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256699007",
+   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
+   "posted": "2026-10-07",
+   "employment_type": "",
+   "score": 10,
+   "reasons": [
+    "desc: SystemVerilog +3",
+    "desc: RTL +3",
+    "desc: testbenches +1",
+    "desc: Formal Verification +1",
+    "desc: microarchitecture +1",
+    "desc: RISC-V +1"
+   ],
+   "categories": [
+    "Verification",
+    "Design"
+   ],
+   "degree": [
+    "PhD",
+    "MS",
+    "BS"
+   ],
+   "season": "",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
@@ -1322,38 +1354,6 @@
     "Physical design"
    ],
    "degree": [],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
-   "closed": null
-  },
-  {
-   "key": "greenhouse:Tenstorrent (university):5256699007",
-   "source": "Tenstorrent (university)",
-   "platform": "greenhouse",
-   "title": "Intern, RISC-V CPU (USA)",
-   "url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256699007",
-   "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
-   "posted": "2026-10-07",
-   "employment_type": "",
-   "score": 10,
-   "reasons": [
-    "desc: SystemVerilog +3",
-    "desc: RTL +3",
-    "desc: testbenches +1",
-    "desc: Formal Verification +1",
-    "desc: microarchitecture +1",
-    "desc: RISC-V +1"
-   ],
-   "categories": [
-    "Verification",
-    "Design"
-   ],
-   "degree": [
-    "PhD",
-    "MS",
-    "BS"
-   ],
    "season": "",
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-15",
@@ -1667,7 +1667,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "closed": null
   },
   {
