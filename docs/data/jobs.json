@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:54:45+00:00",
+ "generated_at": "2026-11-18T19:26:02+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,7 +12,7 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 2.6
+   "seconds": 1.4
   },
   {
    "name": "AMD",
@@ -30,7 +30,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.2
   },
   {
    "name": "Astera Labs",
@@ -40,7 +40,7 @@
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "name": "Ayar Labs",
@@ -49,7 +49,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.6
+   "seconds": 0.7
   },
   {
    "name": "Broadcom",
@@ -58,7 +58,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.2
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.2
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Cerebras (early talent)",
@@ -91,11 +91,11 @@
    "name": "d-Matrix",
    "platform": "auto",
    "status": "ok",
-   "fetched": 37,
+   "fetched": 38,
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Etched",
@@ -105,7 +105,7 @@
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Groq",
@@ -114,7 +114,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 0.6
+   "seconds": 3.4
   },
   {
    "name": "Intel",
@@ -123,13 +123,13 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.2
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 72,
+   "fetched": 70,
    "matched": 1,
    "error": null,
    "resolved": "greenhouse/lightmatter",
@@ -142,13 +142,13 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.2
+   "seconds": 9.7
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 41,
+   "fetched": 42,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
@@ -161,7 +161,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.2
+   "seconds": 9.1
   },
   {
    "name": "Northrop Grumman",
@@ -170,7 +170,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.1
   },
   {
    "name": "NVIDIA",
@@ -179,7 +179,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 17.8
+   "seconds": 9.2
   },
   {
    "name": "Positron",
@@ -188,7 +188,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 2.0
+   "seconds": 4.0
   },
   {
    "name": "RTX",
@@ -197,7 +197,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.2
+   "seconds": 9.1
   },
   {
    "name": "SambaNova",
@@ -216,7 +216,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 10.7
+   "seconds": 10.3
   },
   {
    "name": "SiFive",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 0.7
+   "seconds": 0.9
   }
  ],
  "manual": [
@@ -501,7 +501,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -686,7 +686,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -802,7 +802,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -927,7 +927,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -955,7 +955,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -988,7 +988,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -1047,7 +1047,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -1105,7 +1105,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -1219,7 +1219,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
@@ -1667,7 +1667,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "closed": null
   },
   {
