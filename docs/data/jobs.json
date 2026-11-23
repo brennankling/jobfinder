@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:34:42+00:00",
+ "generated_at": "2026-11-23T22:44:30+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,16 +12,16 @@
    "fetched": 10,
    "matched": 3,
    "error": null,
-   "seconds": 1.6
+   "seconds": 1.2
   },
   {
    "name": "AMD",
    "platform": "jibe",
    "status": "ok",
-   "fetched": 18,
+   "fetched": 14,
    "matched": 0,
    "error": null,
-   "seconds": 0.8
+   "seconds": 0.6
   },
   {
    "name": "Analog Devices",
@@ -30,17 +30,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 15.4
+   "seconds": 9.2
   },
   {
    "name": "Astera Labs",
    "platform": "auto",
    "status": "ok",
-   "fetched": 175,
+   "fetched": 173,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/asteralabs",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Ayar Labs",
@@ -49,7 +49,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "name": "Broadcom",
@@ -58,7 +58,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.5
+   "seconds": 9.1
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.5
+   "seconds": 9.1
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.2
+   "seconds": 0.0
   },
   {
    "name": "Cerebras (early talent)",
@@ -85,7 +85,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs?content=true",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "name": "d-Matrix",
@@ -95,17 +95,17 @@
    "matched": 0,
    "error": null,
    "resolved": "ashby/d-matrix",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "Etched",
    "platform": "auto",
    "status": "ok",
-   "fetched": 118,
+   "fetched": 117,
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "Groq",
@@ -114,7 +114,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 0.8
+   "seconds": 10.6
   },
   {
    "name": "Intel",
@@ -123,17 +123,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 10.3
+   "seconds": 9.1
   },
   {
    "name": "Lightmatter",
    "platform": "auto",
    "status": "ok",
-   "fetched": 86,
+   "fetched": 87,
    "matched": 1,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Marvell",
@@ -142,17 +142,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 10.1
+   "seconds": 9.2
   },
   {
    "name": "MatX",
    "platform": "auto",
    "status": "ok",
-   "fetched": 39,
+   "fetched": 40,
    "matched": 0,
    "error": null,
    "resolved": "ashby/matx",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "Micron",
@@ -161,7 +161,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 10.3
+   "seconds": 9.1
   },
   {
    "name": "Northrop Grumman",
@@ -170,7 +170,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.4
+   "seconds": 9.2
   },
   {
    "name": "NVIDIA",
@@ -179,7 +179,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 10.8
+   "seconds": 9.2
   },
   {
    "name": "Positron",
@@ -188,7 +188,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 1.1
+   "seconds": 0.5
   },
   {
    "name": "RTX",
@@ -197,17 +197,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 24.2
+   "seconds": 9.1
   },
   {
    "name": "SambaNova",
    "platform": "auto",
    "status": "ok",
-   "fetched": 74,
+   "fetched": 72,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/sambanovasystems",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Samsung Semiconductor",
@@ -216,7 +216,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 11.1
+   "seconds": 10.2
   },
   {
    "name": "SiFive",
@@ -225,17 +225,17 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.7
+   "seconds": 0.3
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 145,
+   "fetched": 147,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Tenstorrent (university)",
@@ -244,7 +244,7 @@
    "fetched": 12,
    "matched": 4,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 0.8
+   "seconds": 0.5
   }
  ],
  "manual": [
@@ -501,7 +501,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -686,7 +686,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -802,7 +802,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -927,7 +927,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -955,7 +955,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -988,7 +988,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -1047,7 +1047,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -1105,7 +1105,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -1219,7 +1219,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -1667,7 +1667,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "closed": null
   },
   {
@@ -2286,114 +2286,6 @@
    "closed": "2026-11-11"
   },
   {
-   "key": "workday:Micron:JR112552",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - Design Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112552",
-   "location": "Richardson, TX",
-   "posted": "2026-10-19",
-   "employment_type": "Full time",
-   "score": 18,
-   "reasons": [
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: VHDL +3",
-    "desc: RTL +3",
-    "desc: synthesis +1",
-    "desc: functional coverage +1",
-    "desc: Innovus +1",
-    "desc: VCS +1",
-    "desc: FPGA +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Verification",
-    "FPGA",
-    "Physical design",
-    "Design"
-   ],
-   "degree": [
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-22",
-   "closed": "2026-10-23"
-  },
-  {
-   "key": "workday:Micron:JR112545",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - Design Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545",
-   "location": "Richardson, TX",
-   "posted": "2026-10-19",
-   "employment_type": "Full time",
-   "score": 18,
-   "reasons": [
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: VHDL +3",
-    "desc: RTL +3",
-    "desc: synthesis +1",
-    "desc: functional coverage +1",
-    "desc: Innovus +1",
-    "desc: VCS +1",
-    "desc: FPGA +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Verification",
-    "FPGA",
-    "Physical design",
-    "Design"
-   ],
-   "degree": [
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-22",
-   "closed": "2026-10-23"
-  },
-  {
-   "key": "workday:Micron:JR112529",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - Memory Design Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Memory-Design-Engineer--HBM_JR112529",
-   "location": "Richardson, TX",
-   "posted": "2026-10-16",
-   "employment_type": "Full time",
-   "score": 18,
-   "reasons": [
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3",
-    "desc: VHDL +3",
-    "desc: RTL +3",
-    "desc: synthesis +1",
-    "desc: functional coverage +1",
-    "desc: Innovus +1",
-    "desc: VCS +1",
-    "desc: FPGA +1",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Verification",
-    "FPGA",
-    "Physical design",
-    "Design"
-   ],
-   "degree": [],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-22",
-   "closed": "2026-10-23"
-  },
-  {
    "key": "workday:Micron:JR112163",
    "source": "Micron",
    "platform": "workday",
@@ -2592,34 +2484,6 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-06",
    "closed": "2026-11-07"
-  },
-  {
-   "key": "workday:Micron:JR111823",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - ASIC Validation",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Minneapolis-MN/Intern---ASIC-Validation_JR111823",
-   "location": "Minneapolis, MN",
-   "posted": "2026-10-19",
-   "employment_type": "Full time",
-   "score": 10,
-   "reasons": [
-    "title: ASIC +6",
-    "desc: SystemVerilog +3",
-    "desc: ASIC +1"
-   ],
-   "categories": [
-    "Design"
-   ],
-   "degree": [
-    "PhD",
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-20",
-   "last_seen": "2026-10-22",
-   "closed": "2026-10-23"
   },
   {
    "key": "jibe:AMD:90894",
@@ -2932,32 +2796,6 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-10",
    "closed": "2026-11-11"
-  },
-  {
-   "key": "workday:Micron:JR110452",
-   "source": "Micron",
-   "platform": "workday",
-   "title": "Intern - Design Engineer, HBM",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR110452",
-   "location": "Richardson, TX",
-   "posted": "2026-10-19",
-   "employment_type": "Full time",
-   "score": 6,
-   "reasons": [
-    "desc: Verilog +3",
-    "desc: SystemVerilog +3"
-   ],
-   "categories": [
-    "Hardware"
-   ],
-   "degree": [
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-20",
-   "last_seen": "2026-10-22",
-   "closed": "2026-10-23"
   }
  ]
 }
