@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:15:30+00:00",
+ "generated_at": "2026-11-27T20:01:50+00:00",
  "settings": {
   "min_score": 6,
   "interns_only": true
@@ -12,7 +12,7 @@
    "fetched": 9,
    "matched": 3,
    "error": null,
-   "seconds": 1.2
+   "seconds": 1.1
   },
   {
    "name": "AMD",
@@ -30,7 +30,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 13.1
   },
   {
    "name": "Astera Labs",
@@ -49,7 +49,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/ayarlabs, ashby/ayarlabs, lever/ayarlabs, greenhouse/ayar-labs, ashby/ayar-labs, lever/ayar-labs)",
-   "seconds": 1.3
+   "seconds": 0.6
   },
   {
    "name": "Broadcom",
@@ -58,7 +58,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 12.9
   },
   {
    "name": "Cadence",
@@ -67,7 +67,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 9.2
   },
   {
    "name": "Cerebras",
@@ -76,7 +76,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "HTTP 404 from https://boards-api.greenhouse.io/v1/boards/cerebrassystems/jobs?content=true",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Cerebras (early talent)",
@@ -105,7 +105,7 @@
    "matched": 2,
    "error": null,
    "resolved": "ashby/etched",
-   "seconds": 0.3
+   "seconds": 0.5
   },
   {
    "name": "Groq",
@@ -114,7 +114,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/groq, ashby/groq, lever/groq, greenhouse/groqinc, ashby/groqinc, lever/groqinc)",
-   "seconds": 0.7
+   "seconds": 4.3
   },
   {
    "name": "Intel",
@@ -123,7 +123,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.4
+   "seconds": 13.3
   },
   {
    "name": "Lightmatter",
@@ -133,7 +133,7 @@
    "matched": 3,
    "error": null,
    "resolved": "greenhouse/lightmatter",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Marvell",
@@ -142,7 +142,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 13.0
   },
   {
    "name": "MatX",
@@ -161,7 +161,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 13.1
   },
   {
    "name": "Northrop Grumman",
@@ -179,7 +179,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 9.3
+   "seconds": 19.6
   },
   {
    "name": "Positron",
@@ -188,7 +188,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/positron, ashby/positron, lever/positron, greenhouse/positronai, ashby/positronai, lever/positronai)",
-   "seconds": 0.6
+   "seconds": 1.3
   },
   {
    "name": "RTX",
@@ -216,7 +216,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "request failed: RetryError",
-   "seconds": 16.1
+   "seconds": 11.2
   },
   {
    "name": "SiFive",
@@ -225,13 +225,13 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/sifive, ashby/sifive, lever/sifive)",
-   "seconds": 0.6
+   "seconds": 0.8
   },
   {
    "name": "Tenstorrent",
    "platform": "auto",
    "status": "ok",
-   "fetched": 154,
+   "fetched": 153,
    "matched": 0,
    "error": null,
    "resolved": "greenhouse/tenstorrent",
@@ -244,7 +244,7 @@
    "fetched": 12,
    "matched": 4,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Untether AI",
@@ -253,7 +253,7 @@
    "fetched": 0,
    "matched": 0,
    "error": "no board found (tried greenhouse/untether, ashby/untether, lever/untether, greenhouse/untetherai, ashby/untetherai, lever/untetherai)",
-   "seconds": 0.8
+   "seconds": 1.6
   }
  ],
  "manual": [
@@ -498,7 +498,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -535,7 +535,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -661,34 +661,6 @@
    "closed": null
   },
   {
-   "key": "greenhouse:Lightmatter:5493962008",
-   "source": "Lightmatter",
-   "platform": "greenhouse",
-   "title": "Design Verification, Intern Summer 2027",
-   "url": "https://boards.greenhouse.io/lightmatter/jobs/5493962008?gh_jid=5493962008",
-   "location": "Boston, MA",
-   "posted": "2026-11-24",
-   "employment_type": "",
-   "score": 22,
-   "reasons": [
-    "title: Design Verification +7",
-    "title: Verification +5",
-    "desc: SystemVerilog +3",
-    "desc: UVM +3",
-    "desc: HDL +2",
-    "desc: formal verification +1",
-    "desc: Xcelium +1"
-   ],
-   "categories": [
-    "Verification"
-   ],
-   "degree": [],
-   "season": "Summer 2027",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
-   "closed": null
-  },
-  {
    "key": "greenhouse:Lightmatter:5474684008",
    "source": "Lightmatter",
    "platform": "greenhouse",
@@ -713,7 +685,35 @@
    "degree": [],
    "season": "Summer 2027",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
+   "closed": null
+  },
+  {
+   "key": "greenhouse:Lightmatter:5493962008",
+   "source": "Lightmatter",
+   "platform": "greenhouse",
+   "title": "Design Verification, Intern Summer 2027",
+   "url": "https://boards.greenhouse.io/lightmatter/jobs/5493962008?gh_jid=5493962008",
+   "location": "Boston, MA",
+   "posted": "2026-11-24",
+   "employment_type": "",
+   "score": 22,
+   "reasons": [
+    "title: Design Verification +7",
+    "title: Verification +5",
+    "desc: SystemVerilog +3",
+    "desc: UVM +3",
+    "desc: HDL +2",
+    "desc: formal verification +1",
+    "desc: Xcelium +1"
+   ],
+   "categories": [
+    "Verification"
+   ],
+   "degree": [],
+   "season": "Summer 2027",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -750,7 +750,7 @@
    ],
    "season": "",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -813,7 +813,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -929,7 +929,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1054,7 +1054,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1082,7 +1082,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1115,7 +1115,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1174,7 +1174,7 @@
    ],
    "season": "Spring 2027",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1232,7 +1232,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1292,7 +1292,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1323,7 +1323,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1408,7 +1408,7 @@
    ],
    "season": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -1856,7 +1856,7 @@
    ],
    "season": "Summer 2027",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "closed": null
   },
   {
@@ -2220,36 +2220,6 @@
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-10",
    "closed": "2026-11-11"
-  },
-  {
-   "key": "workday:Marvell:2604481",
-   "source": "Marvell",
-   "platform": "workday",
-   "title": "Design Verification - Intern",
-   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification---Intern_2604481-1",
-   "location": "Petah-Tikva",
-   "posted": "2026-09-30",
-   "employment_type": "Full time",
-   "score": 22,
-   "reasons": [
-    "title: Design Verification +7",
-    "title: Verification +5",
-    "desc: verilog +3",
-    "desc: system verilog +3",
-    "desc: UVM +3",
-    "desc: functional coverage +1"
-   ],
-   "categories": [
-    "Verification"
-   ],
-   "degree": [
-    "MS",
-    "BS"
-   ],
-   "season": "",
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-10-26",
-   "closed": "2026-10-27"
   },
   {
    "key": "workday:Marvell:2604466",
